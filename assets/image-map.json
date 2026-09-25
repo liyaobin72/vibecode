@@ -1,0 +1,583 @@
+{
+  "bangkok": {
+    "city": "assets/images/cities/bangkok.jpg",
+    "attractions": {
+      "Grand Palace": "assets/images/attractions/bangkok--grand-palace.jpg",
+      "Wat Pho": "assets/images/attractions/bangkok--wat-pho.jpg",
+      "Wat Arun": "assets/images/attractions/bangkok--wat-arun.jpg",
+      "Jim Thompson House": "assets/images/attractions/bangkok--jim-thompson-house.jpg",
+      "Chatuchak Weekend Market": "assets/images/attractions/bangkok--chatuchak-weekend-market.jpg"
+    },
+    "foods": {
+      "Tom yum": "assets/images/foods/bangkok--tom-yum.jpg",
+      "Mango sticky rice": "assets/images/foods/bangkok--mango-sticky-rice.jpg",
+      "Pad Thai": "assets/images/foods/bangkok--pad-thai.jpg",
+      "Boat noodles": "assets/images/foods/bangkok--boat-noodles.jpg"
+    }
+  },
+  "hong-kong": {
+    "city": "assets/images/cities/hong-kong.jpg",
+    "attractions": {
+      "Victoria Peak": "assets/images/attractions/hong-kong--victoria-peak.jpg",
+      "Star Ferry": "assets/images/attractions/hong-kong--star-ferry.jpg",
+      "Ngong Ping 360": "assets/images/attractions/hong-kong--ngong-ping-360.webp",
+      "Tian Tan Buddha": "assets/images/attractions/hong-kong--tian-tan-buddha.webp",
+      "Ocean Park Hong Kong": "assets/images/attractions/hong-kong--ocean-park-hong-kong.jpg"
+    },
+    "foods": {
+      "Roast goose": "assets/images/foods/hong-kong--roast-goose.webp",
+      "Wonton noodles": "assets/images/foods/hong-kong--wonton-noodles.jpg",
+      "Egg tarts": "assets/images/foods/hong-kong--egg-tarts.jpg",
+      "Hong Kong milk tea": "assets/images/foods/hong-kong--hong-kong-milk-tea.webp"
+    }
+  },
+  "london": {
+    "city": "assets/images/cities/london.jpg",
+    "attractions": {
+      "British Museum": "assets/images/attractions/london--british-museum.jpg",
+      "Tower of London": "assets/images/attractions/london--tower-of-london.webp",
+      "Westminster Abbey": "assets/images/attractions/london--westminster-abbey.jpg",
+      "London Eye": "assets/images/attractions/london--london-eye.jpg",
+      "National Gallery": "assets/images/attractions/london--national-gallery.jpg"
+    },
+    "foods": {
+      "Fish and chips": "assets/images/foods/london--fish-and-chips.webp",
+      "Full English breakfast": "assets/images/foods/london--full-english-breakfast.jpg",
+      "Sunday roast": "assets/images/foods/london--sunday-roast.jpg",
+      "Indian curry": "assets/images/foods/london--indian-curry.jpg"
+    }
+  },
+  "macau": {
+    "city": "assets/images/cities/macau.jpg",
+    "attractions": {
+      "Ruins of St. Paul's": "assets/images/attractions/macau--ruins-of-st-paul-s.jpg",
+      "Macau Tower": "assets/images/attractions/macau--macau-tower.jpg",
+      "Senado Square": "assets/images/attractions/macau--senado-square.webp",
+      "A-Ma Temple": "assets/images/attractions/macau--a-ma-temple.jpg",
+      "Taipa Village": "assets/images/attractions/macau--taipa-village.jpg"
+    },
+    "foods": {
+      "Portuguese egg tart": "assets/images/foods/macau--portuguese-egg-tart.jpg",
+      "Pork chop bun": "assets/images/foods/macau--pork-chop-bun.jpg",
+      "Crab congee": "assets/images/foods/macau--crab-congee.jpg",
+      "Portuguese chicken": "assets/images/foods/macau--portuguese-chicken.jpg"
+    }
+  },
+  "istanbul": {
+    "city": "assets/images/cities/istanbul.jpg",
+    "attractions": {
+      "Hagia Sophia": "assets/images/attractions/istanbul--hagia-sophia.jpg",
+      "Topkapi Palace": "assets/images/attractions/istanbul--topkapi-palace.jpg",
+      "Blue Mosque": "assets/images/attractions/istanbul--blue-mosque.jpg",
+      "Basilica Cistern": "assets/images/attractions/istanbul--basilica-cistern.webp",
+      "Galata Tower": "assets/images/attractions/istanbul--galata-tower.jpg"
+    },
+    "foods": {
+      "Kebab": "assets/images/foods/istanbul--kebab.webp",
+      "Turkish breakfast": "assets/images/foods/istanbul--turkish-breakfast.jpg",
+      "Baklava": "assets/images/foods/istanbul--baklava.webp",
+      "Turkish coffee": "assets/images/foods/istanbul--turkish-coffee.jpg"
+    }
+  },
+  "dubai": {
+    "city": "assets/images/cities/dubai.jpg",
+    "attractions": {
+      "Burj Khalifa": "assets/images/attractions/dubai--burj-khalifa.webp",
+      "Museum of the Future": "assets/images/attractions/dubai--museum-of-the-future.webp",
+      "Dubai Frame": "assets/images/attractions/dubai--dubai-frame.jpg",
+      "Al Fahidi Historical Neighbourhood": "assets/images/attractions/dubai--al-fahidi-historical-neighbourhood.jpg",
+      "Dubai Miracle Garden": "assets/images/attractions/dubai--dubai-miracle-garden.jpg"
+    },
+    "foods": {
+      "Arabic grilled meats": "assets/images/foods/dubai--arabic-grilled-meats.webp",
+      "Dates": "assets/images/foods/dubai--dates.webp",
+      "Levantine mezze": "assets/images/foods/dubai--levantine-mezze.jpg",
+      "Camel milk desserts": "assets/images/foods/dubai--camel-milk-desserts.jpg"
+    }
+  },
+  "paris": {
+    "city": "assets/images/cities/paris.jpg",
+    "attractions": {
+      "Louvre Museum": "assets/images/attractions/paris--louvre-museum.webp",
+      "Eiffel Tower": "assets/images/attractions/paris--eiffel-tower.jpg",
+      "Musée d'Orsay": "assets/images/attractions/paris--mus-e-d-orsay.jpg",
+      "Sainte-Chapelle": "assets/images/attractions/paris--sainte-chapelle.webp",
+      "Montmartre and Sacré-Cœur": "assets/images/attractions/paris--montmartre-and-sacr-c-ur.jpg"
+    },
+    "foods": {
+      "Croissant": "assets/images/foods/paris--croissant.jpg",
+      "Baguette": "assets/images/foods/paris--baguette.webp",
+      "Foie gras": "assets/images/foods/paris--foie-gras.jpg",
+      "Macaron": "assets/images/foods/paris--macaron.jpg",
+      "Steak frites": "assets/images/foods/paris--steak-frites.webp"
+    }
+  },
+  "kuala-lumpur": {
+    "city": "assets/images/cities/kuala-lumpur.jpg",
+    "attractions": {
+      "Petronas Twin Towers": "assets/images/attractions/kuala-lumpur--petronas-twin-towers.webp",
+      "Batu Caves": "assets/images/attractions/kuala-lumpur--batu-caves.jpg",
+      "KL Tower": "assets/images/attractions/kuala-lumpur--kl-tower.jpg",
+      "Merdeka Square": "assets/images/attractions/kuala-lumpur--merdeka-square.jpg",
+      "Islamic Arts Museum Malaysia": "assets/images/attractions/kuala-lumpur--islamic-arts-museum-malaysia.webp"
+    },
+    "foods": {
+      "Nasi lemak": "assets/images/foods/kuala-lumpur--nasi-lemak.jpg",
+      "Satay": "assets/images/foods/kuala-lumpur--satay.webp",
+      "Bak kut teh": "assets/images/foods/kuala-lumpur--bak-kut-teh.jpg",
+      "Laksa": "assets/images/foods/kuala-lumpur--laksa.jpg"
+    }
+  },
+  "singapore": {
+    "city": "assets/images/cities/singapore.jpg",
+    "attractions": {
+      "Gardens by the Bay": "assets/images/attractions/singapore--gardens-by-the-bay.jpg",
+      "Singapore Zoo": "assets/images/attractions/singapore--singapore-zoo.jpg",
+      "Marina Bay Sands SkyPark": "assets/images/attractions/singapore--marina-bay-sands-skypark.jpg",
+      "National Gallery Singapore": "assets/images/attractions/singapore--national-gallery-singapore.jpg",
+      "Bird Paradise": "assets/images/attractions/singapore--bird-paradise.jpg"
+    },
+    "foods": {
+      "Hainanese chicken rice": "assets/images/foods/singapore--hainanese-chicken-rice.webp",
+      "Chilli crab": "assets/images/foods/singapore--chilli-crab.jpg",
+      "Laksa": "assets/images/foods/singapore--laksa.jpg",
+      "Kaya toast": "assets/images/foods/singapore--kaya-toast.jpg"
+    }
+  },
+  "tokyo": {
+    "city": "assets/images/cities/tokyo.jpg",
+    "attractions": {
+      "Senso-ji": "assets/images/attractions/tokyo--senso-ji.webp",
+      "Tokyo Skytree": "assets/images/attractions/tokyo--tokyo-skytree.jpg",
+      "Meiji Shrine": "assets/images/attractions/tokyo--meiji-shrine.jpg",
+      "Shibuya Crossing": "assets/images/attractions/tokyo--shibuya-crossing.jpg",
+      "Ueno Park and Tokyo National Museum": "assets/images/attractions/tokyo--ueno-park-and-tokyo-national-museum.jpg"
+    },
+    "foods": {
+      "Sushi": "assets/images/foods/tokyo--sushi.jpg",
+      "Ramen": "assets/images/foods/tokyo--ramen.jpg",
+      "Tempura": "assets/images/foods/tokyo--tempura.webp",
+      "Unagi rice": "assets/images/foods/tokyo--unagi-rice.jpg",
+      "Izakaya dishes": "assets/images/foods/tokyo--izakaya-dishes.jpg"
+    }
+  },
+  "new-york": {
+    "city": "assets/images/cities/new-york.jpg",
+    "attractions": {
+      "Metropolitan Museum of Art": "assets/images/attractions/new-york--metropolitan-museum-of-art.jpg",
+      "Statue of Liberty": "assets/images/attractions/new-york--statue-of-liberty.webp",
+      "Empire State Building": "assets/images/attractions/new-york--empire-state-building.jpg",
+      "Central Park": "assets/images/attractions/new-york--central-park.webp",
+      "9/11 Memorial and Museum": "assets/images/attractions/new-york--9-11-memorial-and-museum.webp"
+    },
+    "foods": {
+      "New York pizza": "assets/images/foods/new-york--new-york-pizza.jpg",
+      "Bagels": "assets/images/foods/new-york--bagels.jpg",
+      "Hot dogs": "assets/images/foods/new-york--hot-dogs.jpg",
+      "Steak": "assets/images/foods/new-york--steak.webp",
+      "Cheesecake": "assets/images/foods/new-york--cheesecake.webp"
+    }
+  },
+  "rome": {
+    "city": "assets/images/cities/rome.jpg",
+    "attractions": {
+      "Colosseum": "assets/images/attractions/rome--colosseum.jpg",
+      "Vatican Museums": "assets/images/attractions/rome--vatican-museums.jpg",
+      "Pantheon": "assets/images/attractions/rome--pantheon.jpg",
+      "Trevi Fountain": "assets/images/attractions/rome--trevi-fountain.jpg",
+      "Roman Forum and Palatine Hill": "assets/images/attractions/rome--roman-forum-and-palatine-hill.jpg"
+    },
+    "foods": {
+      "Carbonara": "assets/images/foods/rome--carbonara.jpg",
+      "Cacio e pepe": "assets/images/foods/rome--cacio-e-pepe.jpg",
+      "Gelato": "assets/images/foods/rome--gelato.jpg",
+      "Suppli": "assets/images/foods/rome--suppli.jpg"
+    }
+  },
+  "barcelona": {
+    "city": "assets/images/cities/barcelona.jpg",
+    "attractions": {
+      "Sagrada Familia": "assets/images/attractions/barcelona--sagrada-familia.jpg",
+      "Park Guell": "assets/images/attractions/barcelona--park-guell.jpg",
+      "Casa Batlló": "assets/images/attractions/barcelona--casa-batll.jpg",
+      "Casa Milà / La Pedrera": "assets/images/attractions/barcelona--casa-mil-la-pedrera.jpg",
+      "Gothic Quarter": "assets/images/attractions/barcelona--gothic-quarter.jpg"
+    },
+    "foods": {
+      "Paella": "assets/images/foods/barcelona--paella.jpg",
+      "Tapas": "assets/images/foods/barcelona--tapas.jpg",
+      "Jamón": "assets/images/foods/barcelona--jam-n.jpg",
+      "Crema catalana": "assets/images/foods/barcelona--crema-catalana.jpg"
+    }
+  },
+  "amsterdam": {
+    "city": "assets/images/cities/amsterdam.webp",
+    "attractions": {
+      "Rijksmuseum": "assets/images/attractions/amsterdam--rijksmuseum.webp",
+      "Van Gogh Museum": "assets/images/attractions/amsterdam--van-gogh-museum.jpg",
+      "Anne Frank House": "assets/images/attractions/amsterdam--anne-frank-house.jpg",
+      "Canal Cruise": "assets/images/attractions/amsterdam--canal-cruise.jpg",
+      "A'DAM Lookout": "assets/images/attractions/amsterdam--a-dam-lookout.jpg"
+    },
+    "foods": {
+      "Herring": "assets/images/foods/amsterdam--herring.jpg",
+      "Stroopwafels": "assets/images/foods/amsterdam--stroopwafels.webp",
+      "Bitterballen": "assets/images/foods/amsterdam--bitterballen.jpg",
+      "Cheese": "assets/images/foods/amsterdam--cheese.jpg"
+    }
+  },
+  "seoul": {
+    "city": "assets/images/cities/seoul.jpg",
+    "attractions": {
+      "Gyeongbokgung Palace": "assets/images/attractions/seoul--gyeongbokgung-palace.jpg",
+      "N Seoul Tower": "assets/images/attractions/seoul--n-seoul-tower.jpg",
+      "Bukchon Hanok Village": "assets/images/attractions/seoul--bukchon-hanok-village.jpg",
+      "Myeongdong": "assets/images/attractions/seoul--myeongdong.jpg",
+      "Changdeokgung Palace": "assets/images/attractions/seoul--changdeokgung-palace.jpg"
+    },
+    "foods": {
+      "Korean barbecue": "assets/images/foods/seoul--korean-barbecue.jpg",
+      "Budae jjigae": "assets/images/foods/seoul--budae-jjigae.jpg",
+      "Fried chicken": "assets/images/foods/seoul--fried-chicken.jpg",
+      "Cold noodles": "assets/images/foods/seoul--cold-noodles.jpg",
+      "Gimbap": "assets/images/foods/seoul--gimbap.jpg"
+    }
+  },
+  "madrid": {
+    "city": "assets/images/cities/madrid.jpg",
+    "attractions": {
+      "Prado Museum": "assets/images/attractions/madrid--prado-museum.jpg",
+      "Royal Palace of Madrid": "assets/images/attractions/madrid--royal-palace-of-madrid.webp",
+      "Reina Sofía Museum": "assets/images/attractions/madrid--reina-sof-a-museum.jpg",
+      "Retiro Park": "assets/images/attractions/madrid--retiro-park.jpg",
+      "Plaza Mayor": "assets/images/attractions/madrid--plaza-mayor.jpg"
+    },
+    "foods": {
+      "Iberian ham": "assets/images/foods/madrid--iberian-ham.jpg",
+      "Churros": "assets/images/foods/madrid--churros.jpg",
+      "Calamari sandwich": "assets/images/foods/madrid--calamari-sandwich.jpg",
+      "Paella": "assets/images/foods/madrid--paella.jpg"
+    }
+  },
+  "vienna": {
+    "city": "assets/images/cities/vienna.jpg",
+    "attractions": {
+      "Schonbrunn Palace": "assets/images/attractions/vienna--schonbrunn-palace.jpg",
+      "Kunsthistorisches Museum": "assets/images/attractions/vienna--kunsthistorisches-museum.jpg",
+      "Belvedere Palace": "assets/images/attractions/vienna--belvedere-palace.jpg",
+      "St. Stephen's Cathedral": "assets/images/attractions/vienna--st-stephen-s-cathedral.jpg",
+      "Vienna State Opera": "assets/images/attractions/vienna--vienna-state-opera.jpg"
+    },
+    "foods": {
+      "Wiener schnitzel": "assets/images/foods/vienna--wiener-schnitzel.png",
+      "Sachertorte": "assets/images/foods/vienna--sachertorte.jpg",
+      "Apple strudel": "assets/images/foods/vienna--apple-strudel.jpg",
+      "Coffee": "assets/images/foods/vienna--coffee.jpg"
+    }
+  },
+  "milan": {
+    "city": "assets/images/cities/milan.jpg",
+    "attractions": {
+      "Milan Cathedral": "assets/images/attractions/milan--milan-cathedral.jpg",
+      "The Last Supper": "assets/images/attractions/milan--the-last-supper.jpg",
+      "Galleria Vittorio Emanuele II": "assets/images/attractions/milan--galleria-vittorio-emanuele-ii.jpg",
+      "Sforza Castle": "assets/images/attractions/milan--sforza-castle.jpg",
+      "Teatro alla Scala": "assets/images/attractions/milan--teatro-alla-scala.jpg"
+    },
+    "foods": {
+      "Risotto alla Milanese": "assets/images/foods/milan--risotto-alla-milanese.webp",
+      "Cotoletta": "assets/images/foods/milan--cotoletta.jpg",
+      "Panettone": "assets/images/foods/milan--panettone.webp",
+      "Aperitivo": "assets/images/foods/milan--aperitivo.jpg"
+    }
+  },
+  "prague": {
+    "city": "assets/images/cities/prague.jpg",
+    "attractions": {
+      "Prague Castle": "assets/images/attractions/prague--prague-castle.jpg",
+      "Charles Bridge": "assets/images/attractions/prague--charles-bridge.jpg",
+      "Old Town Square and Astronomical Clock": "assets/images/attractions/prague--old-town-square-and-astronomical-clock.jpg",
+      "St. Vitus Cathedral": "assets/images/attractions/prague--st-vitus-cathedral.jpg",
+      "Jewish Quarter": "assets/images/attractions/prague--jewish-quarter.jpg"
+    },
+    "foods": {
+      "Roast pork knuckle": "assets/images/foods/prague--roast-pork-knuckle.jpg",
+      "Czech goulash": "assets/images/foods/prague--czech-goulash.jpg",
+      "Trdelnik": "assets/images/foods/prague--trdelnik.webp",
+      "Beer": "assets/images/foods/prague--beer.jpg"
+    }
+  },
+  "berlin": {
+    "city": "assets/images/cities/berlin.jpg",
+    "attractions": {
+      "Brandenburg Gate": "assets/images/attractions/berlin--brandenburg-gate.webp",
+      "Reichstag Dome": "assets/images/attractions/berlin--reichstag-dome.jpg",
+      "Berlin Wall Memorial": "assets/images/attractions/berlin--berlin-wall-memorial.jpg",
+      "Museum Island": "assets/images/attractions/berlin--museum-island.jpg",
+      "East Side Gallery": "assets/images/attractions/berlin--east-side-gallery.webp"
+    },
+    "foods": {
+      "Currywurst": "assets/images/foods/berlin--currywurst.jpg",
+      "German sausages": "assets/images/foods/berlin--german-sausages.jpg",
+      "Doner kebab": "assets/images/foods/berlin--doner-kebab.jpg",
+      "Pretzel": "assets/images/foods/berlin--pretzel.jpg"
+    }
+  },
+  "lisbon": {
+    "city": "assets/images/cities/lisbon.webp",
+    "attractions": {
+      "Jeronimos Monastery": "assets/images/attractions/lisbon--jeronimos-monastery.jpg",
+      "Belem Tower": "assets/images/attractions/lisbon--belem-tower.webp",
+      "São Jorge Castle": "assets/images/attractions/lisbon--s-o-jorge-castle.jpg",
+      "Alfama": "assets/images/attractions/lisbon--alfama.webp",
+      "Santa Justa Lift": "assets/images/attractions/lisbon--santa-justa-lift.jpg"
+    },
+    "foods": {
+      "Pastel de nata": "assets/images/foods/lisbon--pastel-de-nata.jpg",
+      "Bacalhau": "assets/images/foods/lisbon--bacalhau.jpg",
+      "Grilled sardines": "assets/images/foods/lisbon--grilled-sardines.jpg",
+      "Seafood rice": "assets/images/foods/lisbon--seafood-rice.jpg"
+    }
+  },
+  "florence": {
+    "city": "assets/images/cities/florence.jpg",
+    "attractions": {
+      "Uffizi Gallery": "assets/images/attractions/florence--uffizi-gallery.jpg",
+      "Cathedral of Santa Maria del Fiore": "assets/images/attractions/florence--cathedral-of-santa-maria-del-fiore.jpg",
+      "Accademia Gallery": "assets/images/attractions/florence--accademia-gallery.jpg",
+      "Ponte Vecchio": "assets/images/attractions/florence--ponte-vecchio.jpg",
+      "Pitti Palace and Boboli Gardens": "assets/images/attractions/florence--pitti-palace-and-boboli-gardens.jpg"
+    },
+    "foods": {
+      "Florentine steak": "assets/images/foods/florence--florentine-steak.jpg",
+      "Lampredotto": "assets/images/foods/florence--lampredotto.webp",
+      "Pasta": "assets/images/foods/florence--pasta.jpg",
+      "Gelato": "assets/images/foods/florence--gelato.jpg"
+    }
+  },
+  "venice": {
+    "city": "assets/images/cities/venice.webp",
+    "attractions": {
+      "Doge's Palace": "assets/images/attractions/venice--doge-s-palace.jpg",
+      "St. Mark's Basilica": "assets/images/attractions/venice--st-mark-s-basilica.jpg",
+      "Rialto Bridge": "assets/images/attractions/venice--rialto-bridge.jpg",
+      "Grand Canal Vaporetto Ride": "assets/images/attractions/venice--grand-canal-vaporetto-ride.webp",
+      "Gallerie dell'Accademia": "assets/images/attractions/venice--gallerie-dell-accademia.jpg"
+    },
+    "foods": {
+      "Squid ink pasta": "assets/images/foods/venice--squid-ink-pasta.jpg",
+      "Seafood cicchetti": "assets/images/foods/venice--seafood-cicchetti.jpg",
+      "Risotto": "assets/images/foods/venice--risotto.webp",
+      "Spritz": "assets/images/foods/venice--spritz.jpg"
+    }
+  },
+  "athens": {
+    "city": "assets/images/cities/athens.jpg",
+    "attractions": {
+      "Acropolis of Athens": "assets/images/attractions/athens--acropolis-of-athens.jpg",
+      "Acropolis Museum": "assets/images/attractions/athens--acropolis-museum.webp",
+      "Ancient Agora of Athens": "assets/images/attractions/athens--ancient-agora-of-athens.webp",
+      "Temple of Olympian Zeus": "assets/images/attractions/athens--temple-of-olympian-zeus.jpg",
+      "Plaka": "assets/images/attractions/athens--plaka.png"
+    },
+    "foods": {
+      "Gyros": "assets/images/foods/athens--gyros.webp",
+      "Moussaka": "assets/images/foods/athens--moussaka.webp",
+      "Greek salad": "assets/images/foods/athens--greek-salad.jpg",
+      "Yogurt with honey": "assets/images/foods/athens--yogurt-with-honey.webp"
+    }
+  },
+  "edinburgh": {
+    "city": "assets/images/cities/edinburgh.jpg",
+    "attractions": {
+      "Edinburgh Castle": "assets/images/attractions/edinburgh--edinburgh-castle.jpg",
+      "Royal Mile": "assets/images/attractions/edinburgh--royal-mile.jpg",
+      "Arthur's Seat": "assets/images/attractions/edinburgh--arthur-s-seat.png",
+      "National Museum of Scotland": "assets/images/attractions/edinburgh--national-museum-of-scotland.png",
+      "Palace of Holyroodhouse": "assets/images/attractions/edinburgh--palace-of-holyroodhouse.png"
+    },
+    "foods": {
+      "Haggis": "assets/images/foods/edinburgh--haggis.jpg",
+      "Scotch whisky": "assets/images/foods/edinburgh--scotch-whisky.jpg",
+      "Scones": "assets/images/foods/edinburgh--scones.jpg",
+      "Seafood": "assets/images/foods/edinburgh--seafood.jpg"
+    }
+  },
+  "copenhagen": {
+    "city": "assets/images/cities/copenhagen.jpg",
+    "attractions": {
+      "Nyhavn": "assets/images/attractions/copenhagen--nyhavn.webp",
+      "Tivoli Gardens": "assets/images/attractions/copenhagen--tivoli-gardens.jpg",
+      "Rosenborg Castle": "assets/images/attractions/copenhagen--rosenborg-castle.png",
+      "The Little Mermaid": "assets/images/attractions/copenhagen--the-little-mermaid.png",
+      "Christiansborg Palace": "assets/images/attractions/copenhagen--christiansborg-palace.png"
+    },
+    "foods": {
+      "Smorrebrod": "assets/images/foods/copenhagen--smorrebrod.jpg",
+      "Danish pastry": "assets/images/foods/copenhagen--danish-pastry.jpg",
+      "Hot dogs": "assets/images/foods/copenhagen--hot-dogs.jpg",
+      "New Nordic cuisine": "assets/images/foods/copenhagen--new-nordic-cuisine.jpg"
+    }
+  },
+  "beijing": {
+    "city": "assets/images/cities/beijing.jpg",
+    "attractions": {
+      "Forbidden City": "assets/images/attractions/beijing--forbidden-city.webp",
+      "Great Wall": "assets/images/attractions/beijing--great-wall.jpg",
+      "Temple of Heaven": "assets/images/attractions/beijing--temple-of-heaven.png",
+      "Summer Palace": "assets/images/attractions/beijing--summer-palace.png",
+      "Tian'anmen Square": "assets/images/attractions/beijing--tian-anmen-square.png"
+    },
+    "foods": {
+      "Peking duck": "assets/images/foods/beijing--peking-duck.jpg",
+      "Zhajiang noodles": "assets/images/foods/beijing--zhajiang-noodles.jpg",
+      "Douzhi": "assets/images/foods/beijing--douzhi.webp",
+      "Mutton hot pot": "assets/images/foods/beijing--mutton-hot-pot.jpg"
+    }
+  },
+  "shanghai": {
+    "city": "assets/images/cities/shanghai.webp",
+    "attractions": {
+      "Shanghai Tower Observation Deck": "assets/images/attractions/shanghai--shanghai-tower-observation-deck.jpg",
+      "Yu Garden": "assets/images/attractions/shanghai--yu-garden.jpg",
+      "The Bund": "assets/images/attractions/shanghai--the-bund.png",
+      "Shanghai Museum": "assets/images/attractions/shanghai--shanghai-museum.png",
+      "Oriental Pearl Tower": "assets/images/attractions/shanghai--oriental-pearl-tower.png"
+    },
+    "foods": {
+      "Xiaolongbao": "assets/images/foods/shanghai--xiaolongbao.jpg",
+      "Shengjianbao": "assets/images/foods/shanghai--shengjianbao.jpg",
+      "Braised pork": "assets/images/foods/shanghai--braised-pork.webp",
+      "Scallion oil noodles": "assets/images/foods/shanghai--scallion-oil-noodles.webp"
+    }
+  },
+  "xi-an": {
+    "city": "assets/images/cities/xi-an.jpg",
+    "attractions": {
+      "Terracotta Warriors": "assets/images/attractions/xi-an--terracotta-warriors.jpg",
+      "Xi'an City Wall": "assets/images/attractions/xi-an--xi-an-city-wall.jpg",
+      "Big Wild Goose Pagoda": "assets/images/attractions/xi-an--big-wild-goose-pagoda.png",
+      "Shaanxi History Museum": "assets/images/attractions/xi-an--shaanxi-history-museum.png",
+      "Muslim Quarter": "assets/images/attractions/xi-an--muslim-quarter.png"
+    },
+    "foods": {
+      "Roujiamo": "assets/images/foods/xi-an--roujiamo.jpg",
+      "Yangrou paomo": "assets/images/foods/xi-an--yangrou-paomo.jpg",
+      "Liangpi": "assets/images/foods/xi-an--liangpi.jpg",
+      "Biangbiang noodles": "assets/images/foods/xi-an--biangbiang-noodles.jpg"
+    }
+  },
+  "chengdu": {
+    "city": "assets/images/cities/chengdu.jpg",
+    "attractions": {
+      "Chengdu Research Base of Giant Panda Breeding": "assets/images/attractions/chengdu--chengdu-research-base-of-giant-panda-breeding.jpg",
+      "Wuhou Shrine": "assets/images/attractions/chengdu--wuhou-shrine.jpg",
+      "Jinli Ancient Street": "assets/images/attractions/chengdu--jinli-ancient-street.png",
+      "Du Fu Thatched Cottage": "assets/images/attractions/chengdu--du-fu-thatched-cottage.png",
+      "People's Park": "assets/images/attractions/chengdu--people-s-park.png"
+    },
+    "foods": {
+      "Hot pot": "assets/images/foods/chengdu--hot-pot.jpg",
+      "Chuan chuan": "assets/images/foods/chengdu--chuan-chuan.webp",
+      "Dan dan noodles": "assets/images/foods/chengdu--dan-dan-noodles.jpg",
+      "Zhong dumplings": "assets/images/foods/chengdu--zhong-dumplings.webp",
+      "Rabbit head": "assets/images/foods/chengdu--rabbit-head.webp"
+    }
+  },
+  "hangzhou": {
+    "city": "assets/images/cities/hangzhou.jpg",
+    "attractions": {
+      "West Lake": "assets/images/attractions/hangzhou--west-lake.jpg",
+      "Lingyin Temple and Feilai Peak": "assets/images/attractions/hangzhou--lingyin-temple-and-feilai-peak.jpg",
+      "Xixi National Wetland Park": "assets/images/attractions/hangzhou--xixi-national-wetland-park.png",
+      "Hefang Street": "assets/images/attractions/hangzhou--hefang-street.png",
+      "Leifeng Pagoda": "assets/images/attractions/hangzhou--leifeng-pagoda.png"
+    },
+    "foods": {
+      "West Lake vinegar fish": "assets/images/foods/hangzhou--west-lake-vinegar-fish.webp",
+      "Longjing shrimp": "assets/images/foods/hangzhou--longjing-shrimp.jpg",
+      "Dongpo pork": "assets/images/foods/hangzhou--dongpo-pork.webp",
+      "Pian'erchuan noodles": "assets/images/foods/hangzhou--pian-erchuan-noodles.webp"
+    }
+  },
+  "guilin-yangshuo": {
+    "city": "assets/images/cities/guilin-yangshuo.jpg",
+    "attractions": {
+      "Li River Cruise": "assets/images/attractions/guilin-yangshuo--li-river-cruise.jpg",
+      "Elephant Trunk Hill": "assets/images/attractions/guilin-yangshuo--elephant-trunk-hill.webp",
+      "Reed Flute Cave": "assets/images/attractions/guilin-yangshuo--reed-flute-cave.png",
+      "Yulong River": "assets/images/attractions/guilin-yangshuo--yulong-river.png",
+      "West Street Yangshuo": "assets/images/attractions/guilin-yangshuo--west-street-yangshuo.png"
+    },
+    "foods": {
+      "Guilin rice noodles": "assets/images/foods/guilin-yangshuo--guilin-rice-noodles.webp",
+      "Beer fish": "assets/images/foods/guilin-yangshuo--beer-fish.jpg",
+      "Lipu taro pork": "assets/images/foods/guilin-yangshuo--lipu-taro-pork.webp",
+      "Oil tea": "assets/images/foods/guilin-yangshuo--oil-tea.jpg"
+    }
+  },
+  "guangzhou": {
+    "city": "assets/images/cities/guangzhou.webp",
+    "attractions": {
+      "Chen Clan Ancestral Hall": "assets/images/attractions/guangzhou--chen-clan-ancestral-hall.webp",
+      "Canton Tower": "assets/images/attractions/guangzhou--canton-tower.jpg",
+      "Shamian Island": "assets/images/attractions/guangzhou--shamian-island.png",
+      "Yuexiu Park": "assets/images/attractions/guangzhou--yuexiu-park.png",
+      "Guangdong Museum": "assets/images/attractions/guangzhou--guangdong-museum.png"
+    },
+    "foods": {
+      "Dim sum": "assets/images/foods/guangzhou--dim-sum.jpg",
+      "Roast goose": "assets/images/foods/guangzhou--roast-goose.jpg",
+      "Rice noodle rolls": "assets/images/foods/guangzhou--rice-noodle-rolls.jpg",
+      "Wonton noodles": "assets/images/foods/guangzhou--wonton-noodles.webp"
+    }
+  },
+  "shenzhen": {
+    "city": "assets/images/cities/shenzhen.jpg",
+    "attractions": {
+      "Window of the World": "assets/images/attractions/shenzhen--window-of-the-world.webp",
+      "Shenzhen Bay Park": "assets/images/attractions/shenzhen--shenzhen-bay-park.jpg",
+      "Splendid China Folk Village": "assets/images/attractions/shenzhen--splendid-china-folk-village.png",
+      "OCT Loft": "assets/images/attractions/shenzhen--oct-loft.png",
+      "Dameisha Beach Park": "assets/images/attractions/shenzhen--dameisha-beach-park.png"
+    },
+    "foods": {
+      "Chaoshan beef hot pot": "assets/images/foods/shenzhen--chaoshan-beef-hot-pot.jpg",
+      "Cantonese cuisine": "assets/images/foods/shenzhen--cantonese-cuisine.webp",
+      "Seafood": "assets/images/foods/shenzhen--seafood.webp",
+      "Dim sum": "assets/images/foods/shenzhen--dim-sum.webp"
+    }
+  },
+  "chongqing": {
+    "city": "assets/images/cities/chongqing.jpg",
+    "attractions": {
+      "Hongya Cave": "assets/images/attractions/chongqing--hongya-cave.webp",
+      "Yangtze River Cableway": "assets/images/attractions/chongqing--yangtze-river-cableway.jpg",
+      "Ciqikou Ancient Town": "assets/images/attractions/chongqing--ciqikou-ancient-town.png",
+      "Three Gorges Museum": "assets/images/attractions/chongqing--three-gorges-museum.png",
+      "Liziba Monorail Station": "assets/images/attractions/chongqing--liziba-monorail-station.png"
+    },
+    "foods": {
+      "Chongqing hot pot": "assets/images/foods/chongqing--chongqing-hot-pot.jpg",
+      "Xiaomian noodles": "assets/images/foods/chongqing--xiaomian-noodles.jpg",
+      "Hot and sour noodles": "assets/images/foods/chongqing--hot-and-sour-noodles.jpg",
+      "Maoxuewang": "assets/images/foods/chongqing--maoxuewang.jpg"
+    }
+  },
+  "suzhou": {
+    "city": "assets/images/cities/suzhou.webp",
+    "attractions": {
+      "Humble Administrator's Garden": "assets/images/attractions/suzhou--humble-administrator-s-garden.jpg",
+      "Tiger Hill": "assets/images/attractions/suzhou--tiger-hill.jpg",
+      "Lingering Garden": "assets/images/attractions/suzhou--lingering-garden.png",
+      "Pingjiang Road": "assets/images/attractions/suzhou--pingjiang-road.png",
+      "Suzhou Museum": "assets/images/attractions/suzhou--suzhou-museum.png"
+    },
+    "foods": {
+      "Squirrel-shaped mandarin fish": "assets/images/foods/suzhou--squirrel-shaped-mandarin-fish.webp",
+      "Suzhou-style noodles": "assets/images/foods/suzhou--suzhou-style-noodles.jpg",
+      "Sweet rice porridge": "assets/images/foods/suzhou--sweet-rice-porridge.jpg",
+      "Crab roe xiaolongbao": "assets/images/foods/suzhou--crab-roe-xiaolongbao.jpg"
+    }
+  }
+}

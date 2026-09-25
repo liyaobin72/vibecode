@@ -1,0 +1,1663 @@
+[
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Bangkok",
+    "country_or_region": "Thailand",
+    "highlights": "Temples, street markets, nightlife, massages, and excellent value food.",
+    "climate": "Tropical monsoon climate; hot year-round with rainy-season showers.",
+    "best_time": "November to February",
+    "attractions": [
+      {
+        "name": "Grand Palace",
+        "description": "Thailand's royal complex and home to Wat Phra Kaew, one of Bangkok's most important cultural landmarks.",
+        "opening_hours": "Commonly 8:30 AM-4:30 PM, with ticket sales often ending around 3:30 PM",
+        "ticket": "Around THB 500"
+      },
+      {
+        "name": "Wat Pho",
+        "description": "Known for the giant Reclining Buddha and traditional Thai massage.",
+        "opening_hours": "Around 8:00 AM-6:30 PM",
+        "ticket": "Around THB 300"
+      },
+      {
+        "name": "Wat Arun",
+        "description": "Wat Arun is another popular attraction in Bangkok, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Jim Thompson House",
+        "description": "Jim Thompson House is another popular attraction in Bangkok, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Chatuchak Weekend Market",
+        "description": "Chatuchak Weekend Market is another popular attraction in Bangkok, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Tom yum",
+      "Mango sticky rice",
+      "Pad Thai",
+      "Boat noodles"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Hong Kong",
+    "country_or_region": "Hong Kong, China",
+    "highlights": "Skyline views, shopping, Victoria Harbour, outlying islands, and dense urban energy.",
+    "climate": "Subtropical monsoon climate; hot humid summers and mild winters.",
+    "best_time": "October to December, March to April",
+    "attractions": [
+      {
+        "name": "Victoria Peak",
+        "description": "Classic viewpoint over Victoria Harbour and Hong Kong's skyline.",
+        "opening_hours": "Peak area open all day; Peak Tram runs by schedule",
+        "ticket": "Peak area free; tram ticket required"
+      },
+      {
+        "name": "Star Ferry",
+        "description": "Historic ferry ride between Hong Kong Island and Kowloon.",
+        "opening_hours": "Frequent daily service by route",
+        "ticket": "Low-cost public ferry fare"
+      },
+      {
+        "name": "Ngong Ping 360",
+        "description": "Ngong Ping 360 is another popular attraction in Hong Kong, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Tian Tan Buddha",
+        "description": "Tian Tan Buddha is another popular attraction in Hong Kong, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Ocean Park Hong Kong",
+        "description": "Ocean Park Hong Kong is another popular attraction in Hong Kong, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Roast goose",
+      "Wonton noodles",
+      "Egg tarts",
+      "Hong Kong milk tea"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "London",
+    "country_or_region": "United Kingdom",
+    "highlights": "Museums, royal history, theatre, and multicultural neighborhoods.",
+    "climate": "Temperate oceanic climate; cloudy and rainy through the year, mild summers.",
+    "best_time": "May to September",
+    "attractions": [
+      {
+        "name": "British Museum",
+        "description": "World-class museum of human history with Egyptian, Greek, Asian, and global collections.",
+        "opening_hours": "Around 10:00 AM-5:00 PM",
+        "ticket": "Permanent collection usually free"
+      },
+      {
+        "name": "Tower of London",
+        "description": "Historic royal fortress and former prison, home to the Crown Jewels.",
+        "opening_hours": "Varies by season, generally open during daytime",
+        "ticket": "Adults from about GBP 35"
+      },
+      {
+        "name": "Westminster Abbey",
+        "description": "Westminster Abbey is another popular attraction in London, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "London Eye",
+        "description": "London Eye is another popular attraction in London, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "National Gallery",
+        "description": "National Gallery is another popular attraction in London, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Fish and chips",
+      "Full English breakfast",
+      "Sunday roast",
+      "Indian curry"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Macau",
+    "country_or_region": "Macau, China",
+    "highlights": "Portuguese old town, UNESCO heritage, casino resorts, and fusion food.",
+    "climate": "Humid subtropical climate; hot humid summers and mild winters.",
+    "best_time": "October to December",
+    "attractions": [
+      {
+        "name": "Ruins of St. Paul's",
+        "description": "Macau's most famous heritage landmark, the facade of the former Church of St. Paul.",
+        "opening_hours": "Exterior open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Macau Tower",
+        "description": "Observation tower with dining and high-adrenaline activities.",
+        "opening_hours": "Around 10:00 AM-7:00 PM or 8:00 PM",
+        "ticket": "Observation deck ticket required"
+      },
+      {
+        "name": "Senado Square",
+        "description": "Senado Square is another popular attraction in Macau, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "A-Ma Temple",
+        "description": "A-Ma Temple is another popular attraction in Macau, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Taipa Village",
+        "description": "Taipa Village is another popular attraction in Macau, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Portuguese egg tart",
+      "Pork chop bun",
+      "Crab congee",
+      "Portuguese chicken"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Istanbul",
+    "country_or_region": "Turkey",
+    "highlights": "Europe-Asia crossroads, mosques, the Bosphorus, and grand bazaars.",
+    "climate": "Mediterranean-temperate transition climate; hot dry summers and cool wet winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Hagia Sophia",
+        "description": "A landmark where Byzantine and Ottoman histories meet.",
+        "opening_hours": "Varies with prayer times and visitor management",
+        "ticket": "Mosque area may be free; visitor gallery may require a ticket"
+      },
+      {
+        "name": "Topkapi Palace",
+        "description": "Former Ottoman palace with imperial courtyards, relics, and treasury rooms.",
+        "opening_hours": "Around 9:00 AM-6:00 PM, often closed Tuesday",
+        "ticket": "Ticket required"
+      },
+      {
+        "name": "Blue Mosque",
+        "description": "Blue Mosque is another popular attraction in Istanbul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Basilica Cistern",
+        "description": "Basilica Cistern is another popular attraction in Istanbul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Galata Tower",
+        "description": "Galata Tower is another popular attraction in Istanbul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Kebab",
+      "Turkish breakfast",
+      "Baklava",
+      "Turkish coffee"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Dubai",
+    "country_or_region": "United Arab Emirates",
+    "highlights": "Skyscrapers, desert trips, shopping malls, beaches, and futuristic architecture.",
+    "climate": "Hot desert climate; extremely hot summers and warm dry winters.",
+    "best_time": "November to March",
+    "attractions": [
+      {
+        "name": "Burj Khalifa",
+        "description": "One of the world's tallest buildings, with observation decks over Dubai.",
+        "opening_hours": "Around 8:30 AM-11:00 PM, varies by date and time slot",
+        "ticket": "From around AED 179"
+      },
+      {
+        "name": "Museum of the Future",
+        "description": "Landmark museum focused on future technology, design, and immersive experiences.",
+        "opening_hours": "Around 10:00 AM-7:30 PM",
+        "ticket": "Around AED 149"
+      },
+      {
+        "name": "Dubai Frame",
+        "description": "Dubai Frame is another popular attraction in Dubai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Al Fahidi Historical Neighbourhood",
+        "description": "Al Fahidi Historical Neighbourhood is another popular attraction in Dubai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Dubai Miracle Garden",
+        "description": "Dubai Miracle Garden is another popular attraction in Dubai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Arabic grilled meats",
+      "Dates",
+      "Levantine mezze",
+      "Camel milk desserts"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Paris",
+    "country_or_region": "France",
+    "highlights": "Art, fashion, cafes, museums, and classic urban scenery.",
+    "climate": "Temperate oceanic climate; pleasant spring and autumn, chilly cloudy winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Louvre Museum",
+        "description": "World-class art museum with the Mona Lisa, Winged Victory, and major collections.",
+        "opening_hours": "9:00 AM-6:00 PM; Wednesday and Friday until 9:00 PM; closed Tuesday",
+        "ticket": "Around EUR 22"
+      },
+      {
+        "name": "Eiffel Tower",
+        "description": "Paris's most iconic landmark, with observation levels over the city.",
+        "opening_hours": "Varies by date, usually open from daytime into evening",
+        "ticket": "Around EUR 14-36+, depending on level and access method"
+      },
+      {
+        "name": "Musée d'Orsay",
+        "description": "Musée d'Orsay is another popular attraction in Paris, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Sainte-Chapelle",
+        "description": "Sainte-Chapelle is another popular attraction in Paris, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Montmartre and Sacré-Cœur",
+        "description": "Montmartre and Sacré-Cœur is another popular attraction in Paris, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Croissant",
+      "Baguette",
+      "Foie gras",
+      "Macaron",
+      "Steak frites"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Kuala Lumpur",
+    "country_or_region": "Malaysia",
+    "highlights": "Skyscrapers, mosques, multicultural neighborhoods, and Southeast Asian food.",
+    "climate": "Tropical rainforest climate; hot and humid year-round.",
+    "best_time": "May to July, December to February",
+    "attractions": [
+      {
+        "name": "Petronas Twin Towers",
+        "description": "Kuala Lumpur's signature skyscrapers with skybridge and observation deck visits.",
+        "opening_hours": "Around 9:00 AM-9:00 PM, often closed Monday",
+        "ticket": "Around MYR 98"
+      },
+      {
+        "name": "Batu Caves",
+        "description": "Hindu shrine known for limestone caves and colorful stairs.",
+        "opening_hours": "Generally open during daytime",
+        "ticket": "Main cave usually free"
+      },
+      {
+        "name": "KL Tower",
+        "description": "KL Tower is another popular attraction in Kuala Lumpur, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Merdeka Square",
+        "description": "Merdeka Square is another popular attraction in Kuala Lumpur, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Islamic Arts Museum Malaysia",
+        "description": "Islamic Arts Museum Malaysia is another popular attraction in Kuala Lumpur, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Nasi lemak",
+      "Satay",
+      "Bak kut teh",
+      "Laksa"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Singapore",
+    "country_or_region": "Singapore",
+    "highlights": "Garden city, family attractions, efficient transport, and multicultural food.",
+    "climate": "Tropical rainforest climate; hot and humid year-round.",
+    "best_time": "February to April, July to September",
+    "attractions": [
+      {
+        "name": "Gardens by the Bay",
+        "description": "Modern garden district with conservatories and Supertrees.",
+        "opening_hours": "Outdoor gardens usually all day; conservatories around 9:00 AM-9:00 PM",
+        "ticket": "Outdoor areas free; conservatories from around SGD 32"
+      },
+      {
+        "name": "Singapore Zoo",
+        "description": "Open-style tropical zoo, especially good for families.",
+        "opening_hours": "Around 8:30 AM-6:00 PM",
+        "ticket": "Ticket required"
+      },
+      {
+        "name": "Marina Bay Sands SkyPark",
+        "description": "Marina Bay Sands SkyPark is another popular attraction in Singapore, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "National Gallery Singapore",
+        "description": "National Gallery Singapore is another popular attraction in Singapore, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Bird Paradise",
+        "description": "Bird Paradise is another popular attraction in Singapore, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Hainanese chicken rice",
+      "Chilli crab",
+      "Laksa",
+      "Kaya toast"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Tokyo",
+    "country_or_region": "Japan",
+    "highlights": "Anime culture, shopping, shrines, refined dining, and efficient urban life.",
+    "climate": "Temperate monsoon climate with four clear seasons.",
+    "best_time": "March to May, October to November",
+    "attractions": [
+      {
+        "name": "Senso-ji",
+        "description": "One of Tokyo's oldest temples, next to Nakamise shopping street.",
+        "opening_hours": "Temple grounds open all day; main hall usually daytime",
+        "ticket": "Free"
+      },
+      {
+        "name": "Tokyo Skytree",
+        "description": "High-rise observation tower with views across Tokyo and sometimes Mount Fuji.",
+        "opening_hours": "Around 10:00 AM-10:00 PM",
+        "ticket": "From around JPY 2,100"
+      },
+      {
+        "name": "Meiji Shrine",
+        "description": "Meiji Shrine is another popular attraction in Tokyo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Shibuya Crossing",
+        "description": "Shibuya Crossing is another popular attraction in Tokyo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Ueno Park and Tokyo National Museum",
+        "description": "Ueno Park and Tokyo National Museum is another popular attraction in Tokyo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Sushi",
+      "Ramen",
+      "Tempura",
+      "Unagi rice",
+      "Izakaya dishes"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "New York",
+    "country_or_region": "United States",
+    "highlights": "Skyscrapers, museums, Broadway, parks, and multicultural energy.",
+    "climate": "Humid continental climate; cold winters and hot summers.",
+    "best_time": "April to June, September to November",
+    "attractions": [
+      {
+        "name": "Metropolitan Museum of Art",
+        "description": "One of America's leading art museums, spanning global art history.",
+        "opening_hours": "Around 10:00 AM-5:00 PM, extended on some days",
+        "ticket": "Adults around USD 30"
+      },
+      {
+        "name": "Statue of Liberty",
+        "description": "Iconic symbol of freedom in New York Harbor, reached by ferry.",
+        "opening_hours": "By ferry schedule",
+        "ticket": "Ferry and visit from around USD 25"
+      },
+      {
+        "name": "Empire State Building",
+        "description": "Empire State Building is another popular attraction in New York, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Central Park",
+        "description": "Central Park is another popular attraction in New York, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "9/11 Memorial and Museum",
+        "description": "9/11 Memorial and Museum is another popular attraction in New York, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "New York pizza",
+      "Bagels",
+      "Hot dogs",
+      "Steak",
+      "Cheesecake"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Rome",
+    "country_or_region": "Italy",
+    "highlights": "Ancient Roman ruins, churches, piazzas, and slow city life.",
+    "climate": "Mediterranean climate; hot dry summers and mild winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Colosseum",
+        "description": "Ancient Roman amphitheatre and the city's most iconic ruin.",
+        "opening_hours": "Around 8:30 AM until before sunset, varies by season",
+        "ticket": "From around EUR 18"
+      },
+      {
+        "name": "Vatican Museums",
+        "description": "Major art collections including the Sistine Chapel.",
+        "opening_hours": "Around 8:00 AM-7:00 PM, usually closed most Sundays",
+        "ticket": "From around EUR 20"
+      },
+      {
+        "name": "Pantheon",
+        "description": "Pantheon is another popular attraction in Rome, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Trevi Fountain",
+        "description": "Trevi Fountain is another popular attraction in Rome, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Roman Forum and Palatine Hill",
+        "description": "Roman Forum and Palatine Hill is another popular attraction in Rome, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Carbonara",
+      "Cacio e pepe",
+      "Gelato",
+      "Suppli"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Barcelona",
+    "country_or_region": "Spain",
+    "highlights": "Gaudi architecture, beaches, football, and nightlife.",
+    "climate": "Mediterranean climate; hot dry summers and mild winters.",
+    "best_time": "May to June, September to October",
+    "attractions": [
+      {
+        "name": "Sagrada Familia",
+        "description": "Gaudi's masterpiece basilica, still under construction.",
+        "opening_hours": "Around 9:00 AM-6:00 PM or 8:00 PM, depending on season",
+        "ticket": "From around EUR 26"
+      },
+      {
+        "name": "Park Guell",
+        "description": "Gaudi-designed garden and city viewpoint.",
+        "opening_hours": "Around 9:30 AM-7:30 PM, varies by season",
+        "ticket": "Around EUR 10+"
+      },
+      {
+        "name": "Casa Batlló",
+        "description": "Casa Batlló is another popular attraction in Barcelona, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Casa Milà / La Pedrera",
+        "description": "Casa Milà / La Pedrera is another popular attraction in Barcelona, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Gothic Quarter",
+        "description": "Gothic Quarter is another popular attraction in Barcelona, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Paella",
+      "Tapas",
+      "Jamón",
+      "Crema catalana"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Amsterdam",
+    "country_or_region": "Netherlands",
+    "highlights": "Canals, cycling, museums, and a relaxed open culture.",
+    "climate": "Temperate oceanic climate; rainy through much of the year.",
+    "best_time": "April to June, September",
+    "attractions": [
+      {
+        "name": "Rijksmuseum",
+        "description": "Dutch national museum with Rembrandt, Vermeer, and Golden Age collections.",
+        "opening_hours": "Around 9:00 AM-5:00 PM",
+        "ticket": "Around EUR 25"
+      },
+      {
+        "name": "Van Gogh Museum",
+        "description": "Major collection of Van Gogh paintings and related archives.",
+        "opening_hours": "Around 9:00 AM-5:00 PM or 6:00 PM",
+        "ticket": "Around EUR 22"
+      },
+      {
+        "name": "Anne Frank House",
+        "description": "Anne Frank House is another popular attraction in Amsterdam, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Canal Cruise",
+        "description": "Canal Cruise is another popular attraction in Amsterdam, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "A'DAM Lookout",
+        "description": "A'DAM Lookout is another popular attraction in Amsterdam, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Herring",
+      "Stroopwafels",
+      "Bitterballen",
+      "Cheese"
+    ]
+  },
+  {
+    "tier": "Global Must-Visit Cities",
+    "city": "Seoul",
+    "country_or_region": "South Korea",
+    "highlights": "K-pop, shopping, palaces, cafes, and night markets.",
+    "climate": "Temperate monsoon climate; cold winters and hot summers.",
+    "best_time": "April to May, September to November",
+    "attractions": [
+      {
+        "name": "Gyeongbokgung Palace",
+        "description": "Main Joseon dynasty palace, good for palace architecture and guard ceremonies.",
+        "opening_hours": "Around 9:00 AM-5:00 PM or 6:00 PM, closed Tuesday",
+        "ticket": "Around KRW 3,000"
+      },
+      {
+        "name": "N Seoul Tower",
+        "description": "Observation tower on Namsan, popular for night views.",
+        "opening_hours": "Around 10:30 AM-10:30 PM",
+        "ticket": "Observation deck around KRW 21,000"
+      },
+      {
+        "name": "Bukchon Hanok Village",
+        "description": "Bukchon Hanok Village is another popular attraction in Seoul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Myeongdong",
+        "description": "Myeongdong is another popular attraction in Seoul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Changdeokgung Palace",
+        "description": "Changdeokgung Palace is another popular attraction in Seoul, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Korean barbecue",
+      "Budae jjigae",
+      "Fried chicken",
+      "Cold noodles",
+      "Gimbap"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Madrid",
+    "country_or_region": "Spain",
+    "highlights": "Royal palace, art museums, plazas, and late-night city life.",
+    "climate": "Continental Mediterranean climate; hot summers and cool winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Prado Museum",
+        "description": "Major European art museum with Spanish and European masterpieces.",
+        "opening_hours": "Around 10:00 AM-8:00 PM",
+        "ticket": "Around EUR 15"
+      },
+      {
+        "name": "Royal Palace of Madrid",
+        "description": "Spanish royal palace with ceremonial rooms and art collections.",
+        "opening_hours": "Around 10:00 AM-6:00 PM or 7:00 PM",
+        "ticket": "Around EUR 14"
+      },
+      {
+        "name": "Reina Sofía Museum",
+        "description": "Reina Sofía Museum is another popular attraction in Madrid, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Retiro Park",
+        "description": "Retiro Park is another popular attraction in Madrid, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Plaza Mayor",
+        "description": "Plaza Mayor is another popular attraction in Madrid, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Iberian ham",
+      "Churros",
+      "Calamari sandwich",
+      "Paella"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Vienna",
+    "country_or_region": "Austria",
+    "highlights": "Classical music, palaces, coffeehouses, and museums.",
+    "climate": "Continental climate; warm summers and cold winters.",
+    "best_time": "April to June, September to December",
+    "attractions": [
+      {
+        "name": "Schonbrunn Palace",
+        "description": "Habsburg summer palace with gardens and a zoo.",
+        "opening_hours": "Palace around 8:30 AM-5:00 PM or 5:30 PM",
+        "ticket": "From around EUR 25"
+      },
+      {
+        "name": "Kunsthistorisches Museum",
+        "description": "Major European art museum with extensive old master collections.",
+        "opening_hours": "Around 10:00 AM-6:00 PM",
+        "ticket": "Around EUR 21"
+      },
+      {
+        "name": "Belvedere Palace",
+        "description": "Belvedere Palace is another popular attraction in Vienna, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "St. Stephen's Cathedral",
+        "description": "St. Stephen's Cathedral is another popular attraction in Vienna, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Vienna State Opera",
+        "description": "Vienna State Opera is another popular attraction in Vienna, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Wiener schnitzel",
+      "Sachertorte",
+      "Apple strudel",
+      "Coffee"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Milan",
+    "country_or_region": "Italy",
+    "highlights": "Fashion, design, opera, and northern Italian business culture.",
+    "climate": "Humid subtropical and continental transition; hot summers and cold winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Milan Cathedral",
+        "description": "Gothic cathedral with rooftop views over the city.",
+        "opening_hours": "Around 9:00 AM-7:00 PM",
+        "ticket": "Around EUR 10+"
+      },
+      {
+        "name": "The Last Supper",
+        "description": "Leonardo da Vinci's masterpiece; limited timed entry and advance booking needed.",
+        "opening_hours": "By reserved time slot",
+        "ticket": "Around EUR 15+"
+      },
+      {
+        "name": "Galleria Vittorio Emanuele II",
+        "description": "Galleria Vittorio Emanuele II is another popular attraction in Milan, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Sforza Castle",
+        "description": "Sforza Castle is another popular attraction in Milan, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Teatro alla Scala",
+        "description": "Teatro alla Scala is another popular attraction in Milan, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Risotto alla Milanese",
+      "Cotoletta",
+      "Panettone",
+      "Aperitivo"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Prague",
+    "country_or_region": "Czech Republic",
+    "highlights": "Medieval old town, castle views, the Vltava River, and beer culture.",
+    "climate": "Temperate continental climate; cold winters and mild summers.",
+    "best_time": "May to June, September",
+    "attractions": [
+      {
+        "name": "Prague Castle",
+        "description": "Large castle complex with St. Vitus Cathedral and Golden Lane.",
+        "opening_hours": "Castle grounds around 6:00 AM-10:00 PM; buildings around 9:00 AM-5:00 PM or 6:00 PM",
+        "ticket": "Circuit ticket required"
+      },
+      {
+        "name": "Charles Bridge",
+        "description": "Historic stone bridge over the Vltava, best early morning or late evening.",
+        "opening_hours": "Open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Old Town Square and Astronomical Clock",
+        "description": "Old Town Square and Astronomical Clock is another popular attraction in Prague, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "St. Vitus Cathedral",
+        "description": "St. Vitus Cathedral is another popular attraction in Prague, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Jewish Quarter",
+        "description": "Jewish Quarter is another popular attraction in Prague, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Roast pork knuckle",
+      "Czech goulash",
+      "Trdelnik",
+      "Beer"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Berlin",
+    "country_or_region": "Germany",
+    "highlights": "Modern history, museums, art, nightlife, and multicultural neighborhoods.",
+    "climate": "Temperate climate; cold winters and mild summers.",
+    "best_time": "May to September",
+    "attractions": [
+      {
+        "name": "Brandenburg Gate",
+        "description": "Symbol of German reunification and Berlin's civic identity.",
+        "opening_hours": "Open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Reichstag Dome",
+        "description": "Glass dome with city views; reservation required.",
+        "opening_hours": "By reserved time slot",
+        "ticket": "Free reservation"
+      },
+      {
+        "name": "Berlin Wall Memorial",
+        "description": "Berlin Wall Memorial is another popular attraction in Berlin, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Museum Island",
+        "description": "Museum Island is another popular attraction in Berlin, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "East Side Gallery",
+        "description": "East Side Gallery is another popular attraction in Berlin, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Currywurst",
+      "German sausages",
+      "Doner kebab",
+      "Pretzel"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Lisbon",
+    "country_or_region": "Portugal",
+    "highlights": "Hills, trams, Atlantic light, tile facades, and viewpoints.",
+    "climate": "Mediterranean climate; mild winters and dry summers.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Jeronimos Monastery",
+        "description": "Manueline architectural landmark tied to Portugal's Age of Discovery.",
+        "opening_hours": "Around 10:00 AM-5:00 PM or 6:30 PM",
+        "ticket": "Around EUR 12"
+      },
+      {
+        "name": "Belem Tower",
+        "description": "Historic defensive tower on the Tagus River.",
+        "opening_hours": "Around 10:00 AM-5:30 PM or 6:30 PM",
+        "ticket": "Ticket required"
+      },
+      {
+        "name": "São Jorge Castle",
+        "description": "São Jorge Castle is another popular attraction in Lisbon, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Alfama",
+        "description": "Alfama is another popular attraction in Lisbon, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Santa Justa Lift",
+        "description": "Santa Justa Lift is another popular attraction in Lisbon, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Pastel de nata",
+      "Bacalhau",
+      "Grilled sardines",
+      "Seafood rice"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Florence",
+    "country_or_region": "Italy",
+    "highlights": "Renaissance art, churches, leather goods, and Tuscan atmosphere.",
+    "climate": "Humid subtropical climate; hot summers and cool winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Uffizi Gallery",
+        "description": "Renaissance art powerhouse with Botticelli and other masters.",
+        "opening_hours": "Tuesday to Sunday around 8:15 AM-6:30 PM; closed Monday",
+        "ticket": "From around EUR 25"
+      },
+      {
+        "name": "Cathedral of Santa Maria del Fiore",
+        "description": "Florence's signature cathedral; dome climb requires reservation.",
+        "opening_hours": "Varies by area",
+        "ticket": "Cathedral area partly free; dome and other areas ticketed"
+      },
+      {
+        "name": "Accademia Gallery",
+        "description": "Accademia Gallery is another popular attraction in Florence, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Ponte Vecchio",
+        "description": "Ponte Vecchio is another popular attraction in Florence, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Pitti Palace and Boboli Gardens",
+        "description": "Pitti Palace and Boboli Gardens is another popular attraction in Florence, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Florentine steak",
+      "Lampredotto",
+      "Pasta",
+      "Gelato"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Venice",
+    "country_or_region": "Italy",
+    "highlights": "Canals, palaces, gondolas, the Biennale, and water-city scenery.",
+    "climate": "Humid subtropical climate; muggy summers and damp winters.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Doge's Palace",
+        "description": "Former seat of the Venetian Republic, connected to the Bridge of Sighs.",
+        "opening_hours": "Around 9:00 AM-6:00 PM or 7:00 PM",
+        "ticket": "Around EUR 30"
+      },
+      {
+        "name": "St. Mark's Basilica",
+        "description": "Byzantine-style basilica known for golden mosaics.",
+        "opening_hours": "Around 9:30 AM-5:15 PM",
+        "ticket": "Small basic entry fee; some areas ticketed separately"
+      },
+      {
+        "name": "Rialto Bridge",
+        "description": "Rialto Bridge is another popular attraction in Venice, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Grand Canal Vaporetto Ride",
+        "description": "Grand Canal Vaporetto Ride is another popular attraction in Venice, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Gallerie dell'Accademia",
+        "description": "Gallerie dell'Accademia is another popular attraction in Venice, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Squid ink pasta",
+      "Seafood cicchetti",
+      "Risotto",
+      "Spritz"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Athens",
+    "country_or_region": "Greece",
+    "highlights": "Ancient Greek ruins, port access, neighborhood dining, and island connections.",
+    "climate": "Mediterranean climate; hot dry summers.",
+    "best_time": "April to June, September to October",
+    "attractions": [
+      {
+        "name": "Acropolis of Athens",
+        "description": "Symbol of ancient Greece, including the Parthenon.",
+        "opening_hours": "Summer around 8:00 AM-8:00 PM; shorter in winter",
+        "ticket": "Around EUR 20-30"
+      },
+      {
+        "name": "Acropolis Museum",
+        "description": "Museum displaying archaeological finds and sculptures from the Acropolis.",
+        "opening_hours": "Around 9:00 AM-5:00 PM or 8:00 PM",
+        "ticket": "Ticket required"
+      },
+      {
+        "name": "Ancient Agora of Athens",
+        "description": "Ancient Agora of Athens is another popular attraction in Athens, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Temple of Olympian Zeus",
+        "description": "Temple of Olympian Zeus is another popular attraction in Athens, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Plaka",
+        "description": "Plaka is another popular attraction in Athens, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Gyros",
+      "Moussaka",
+      "Greek salad",
+      "Yogurt with honey"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Edinburgh",
+    "country_or_region": "Scotland, United Kingdom",
+    "highlights": "Castle, literature, festivals, Scottish scenery, and old-town lanes.",
+    "climate": "Temperate oceanic climate; cool and rainy.",
+    "best_time": "May to September",
+    "attractions": [
+      {
+        "name": "Edinburgh Castle",
+        "description": "Historic castle on volcanic rock with views over the city.",
+        "opening_hours": "Around 9:30 AM-5:00 PM or 6:00 PM",
+        "ticket": "From around GBP 19.50"
+      },
+      {
+        "name": "Royal Mile",
+        "description": "Old Town route linking the castle and Holyrood Palace.",
+        "opening_hours": "Open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Arthur's Seat",
+        "description": "Arthur's Seat is another popular attraction in Edinburgh, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "National Museum of Scotland",
+        "description": "National Museum of Scotland is another popular attraction in Edinburgh, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Palace of Holyroodhouse",
+        "description": "Palace of Holyroodhouse is another popular attraction in Edinburgh, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Haggis",
+      "Scotch whisky",
+      "Scones",
+      "Seafood"
+    ]
+  },
+  {
+    "tier": "European Culture Cities",
+    "city": "Copenhagen",
+    "country_or_region": "Denmark",
+    "highlights": "Nordic design, cycling, harbor life, food, and fairy-tale atmosphere.",
+    "climate": "Temperate oceanic climate; cold winters and cool summers.",
+    "best_time": "May to September",
+    "attractions": [
+      {
+        "name": "Nyhavn",
+        "description": "Colorful harbor district for walking, photos, and boat tours.",
+        "opening_hours": "Open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Tivoli Gardens",
+        "description": "Historic amusement park and city garden.",
+        "opening_hours": "Seasonal, varies by date",
+        "ticket": "Entry from around DKK 180"
+      },
+      {
+        "name": "Rosenborg Castle",
+        "description": "Rosenborg Castle is another popular attraction in Copenhagen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "The Little Mermaid",
+        "description": "The Little Mermaid is another popular attraction in Copenhagen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Christiansborg Palace",
+        "description": "Christiansborg Palace is another popular attraction in Copenhagen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Smorrebrod",
+      "Danish pastry",
+      "Hot dogs",
+      "New Nordic cuisine"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Beijing",
+    "country_or_region": "Mainland China",
+    "highlights": "Imperial capital, palaces, the Great Wall, hutongs, and national museums.",
+    "climate": "Temperate monsoon climate; cold winters, hot summers, short pleasant spring and autumn.",
+    "best_time": "April to May, September to October",
+    "attractions": [
+      {
+        "name": "Forbidden City",
+        "description": "Ming and Qing imperial palace complex and a landmark of Chinese court architecture.",
+        "opening_hours": "Around 8:30 AM-4:30 PM or 5:00 PM; usually closed Monday",
+        "ticket": "Around CNY 40 low season, CNY 60 high season; reservation required"
+      },
+      {
+        "name": "Great Wall",
+        "description": "Popular Beijing sections include Badaling and Mutianyu.",
+        "opening_hours": "Varies by section and season",
+        "ticket": "Commonly from around CNY 40"
+      },
+      {
+        "name": "Temple of Heaven",
+        "description": "Temple of Heaven is another popular attraction in Beijing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Summer Palace",
+        "description": "Summer Palace is another popular attraction in Beijing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Tian'anmen Square",
+        "description": "Tian'anmen Square is another popular attraction in Beijing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Peking duck",
+      "Zhajiang noodles",
+      "Douzhi",
+      "Mutton hot pot"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Shanghai",
+    "country_or_region": "Mainland China",
+    "highlights": "The Bund, skyscrapers, Haipai culture, museums, and shopping.",
+    "climate": "Subtropical monsoon climate; hot humid summers and damp cold winters.",
+    "best_time": "March to May, October to November",
+    "attractions": [
+      {
+        "name": "Shanghai Tower Observation Deck",
+        "description": "High-rise viewpoint in Lujiazui overlooking both sides of the Huangpu River.",
+        "opening_hours": "Around 8:30 AM-9:30 PM",
+        "ticket": "From around CNY 180"
+      },
+      {
+        "name": "Yu Garden",
+        "description": "Classical Jiangnan garden next to the old-town commercial area.",
+        "opening_hours": "Around 9:00 AM-4:30 PM",
+        "ticket": "Around CNY 30-40"
+      },
+      {
+        "name": "The Bund",
+        "description": "The Bund is another popular attraction in Shanghai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Shanghai Museum",
+        "description": "Shanghai Museum is another popular attraction in Shanghai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Oriental Pearl Tower",
+        "description": "Oriental Pearl Tower is another popular attraction in Shanghai, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Xiaolongbao",
+      "Shengjianbao",
+      "Braised pork",
+      "Scallion oil noodles"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Xi'an",
+    "country_or_region": "Mainland China",
+    "highlights": "Tang dynasty heritage, Terracotta Warriors, city wall, museums, and night markets.",
+    "climate": "Temperate monsoon climate with four clear seasons; hot summers and cold winters.",
+    "best_time": "March to May, September to October",
+    "attractions": [
+      {
+        "name": "Terracotta Warriors",
+        "description": "World-class archaeological site of Emperor Qin Shi Huang's burial pits.",
+        "opening_hours": "Around 8:30 AM-6:00 PM or 6:30 PM",
+        "ticket": "Around CNY 120"
+      },
+      {
+        "name": "Xi'an City Wall",
+        "description": "Well-preserved ancient city wall, good for walking or cycling.",
+        "opening_hours": "Around 8:00 AM-10:00 PM",
+        "ticket": "Around CNY 54"
+      },
+      {
+        "name": "Big Wild Goose Pagoda",
+        "description": "Big Wild Goose Pagoda is another popular attraction in Xi'an, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Shaanxi History Museum",
+        "description": "Shaanxi History Museum is another popular attraction in Xi'an, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Muslim Quarter",
+        "description": "Muslim Quarter is another popular attraction in Xi'an, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Roujiamo",
+      "Yangrou paomo",
+      "Liangpi",
+      "Biangbiang noodles"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Chengdu",
+    "country_or_region": "Mainland China",
+    "highlights": "Pandas, teahouses, Sichuan cuisine, slow living, and nearby nature.",
+    "climate": "Humid subtropical climate; cloudy and humid, with muggy summers.",
+    "best_time": "March to June, September to November",
+    "attractions": [
+      {
+        "name": "Chengdu Research Base of Giant Panda Breeding",
+        "description": "Representative place to see giant pandas and younger pandas.",
+        "opening_hours": "Around 7:30 AM-6:00 PM",
+        "ticket": "Around CNY 55"
+      },
+      {
+        "name": "Wuhou Shrine",
+        "description": "Historic site linked to Zhuge Liang and Three Kingdoms culture.",
+        "opening_hours": "Around 9:00 AM-6:00 PM",
+        "ticket": "Around CNY 50"
+      },
+      {
+        "name": "Jinli Ancient Street",
+        "description": "Jinli Ancient Street is another popular attraction in Chengdu, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Du Fu Thatched Cottage",
+        "description": "Du Fu Thatched Cottage is another popular attraction in Chengdu, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "People's Park",
+        "description": "People's Park is another popular attraction in Chengdu, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Hot pot",
+      "Chuan chuan",
+      "Dan dan noodles",
+      "Zhong dumplings",
+      "Rabbit head"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Hangzhou",
+    "country_or_region": "Mainland China",
+    "highlights": "West Lake, tea fields, Jiangnan gardens, temples, and relaxed city life.",
+    "climate": "Subtropical monsoon climate; pleasant spring and autumn, hot humid summers.",
+    "best_time": "March to May, September to November",
+    "attractions": [
+      {
+        "name": "West Lake",
+        "description": "Hangzhou's core scenic area, ideal for walking, cycling, and boat rides.",
+        "opening_hours": "Main scenic area open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Lingyin Temple and Feilai Peak",
+        "description": "Famous Buddhist temple and grotto carving area.",
+        "opening_hours": "Generally open during daytime",
+        "ticket": "Feilai Peak around CNY 45; Lingyin Temple around CNY 30 extra"
+      },
+      {
+        "name": "Xixi National Wetland Park",
+        "description": "Xixi National Wetland Park is another popular attraction in Hangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Hefang Street",
+        "description": "Hefang Street is another popular attraction in Hangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Leifeng Pagoda",
+        "description": "Leifeng Pagoda is another popular attraction in Hangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "West Lake vinegar fish",
+      "Longjing shrimp",
+      "Dongpo pork",
+      "Pian'erchuan noodles"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Guilin/Yangshuo",
+    "country_or_region": "Mainland China",
+    "highlights": "Karst landscapes, Li River, countryside cycling, and outdoor scenery.",
+    "climate": "Subtropical monsoon climate; humid and rainy.",
+    "best_time": "April to June, September to November",
+    "attractions": [
+      {
+        "name": "Li River Cruise",
+        "description": "Classic cruise route from Guilin to Yangshuo through karst scenery.",
+        "opening_hours": "By boat schedule",
+        "ticket": "Commonly around CNY 200-400+"
+      },
+      {
+        "name": "Elephant Trunk Hill",
+        "description": "Iconic Guilin city landmark.",
+        "opening_hours": "Generally open during daytime",
+        "ticket": "Ticket policy may change"
+      },
+      {
+        "name": "Reed Flute Cave",
+        "description": "Reed Flute Cave is another popular attraction in Guilin/Yangshuo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Yulong River",
+        "description": "Yulong River is another popular attraction in Guilin/Yangshuo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "West Street Yangshuo",
+        "description": "West Street Yangshuo is another popular attraction in Guilin/Yangshuo, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Guilin rice noodles",
+      "Beer fish",
+      "Lipu taro pork",
+      "Oil tea"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Guangzhou",
+    "country_or_region": "Mainland China",
+    "highlights": "Cantonese food, dim sum, arcade streets, Pearl River night views, and trade culture.",
+    "climate": "Subtropical monsoon climate; hot humid summers and mild winters.",
+    "best_time": "October to December, March to April",
+    "attractions": [
+      {
+        "name": "Chen Clan Ancestral Hall",
+        "description": "Lingnan architecture and traditional craft display site.",
+        "opening_hours": "Around 9:00 AM-5:30 PM",
+        "ticket": "Around CNY 10"
+      },
+      {
+        "name": "Canton Tower",
+        "description": "Guangzhou landmark with observation decks and high-altitude attractions.",
+        "opening_hours": "Around 9:30 AM-10:30 PM",
+        "ticket": "From around CNY 150"
+      },
+      {
+        "name": "Shamian Island",
+        "description": "Shamian Island is another popular attraction in Guangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Yuexiu Park",
+        "description": "Yuexiu Park is another popular attraction in Guangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Guangdong Museum",
+        "description": "Guangdong Museum is another popular attraction in Guangzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Dim sum",
+      "Roast goose",
+      "Rice noodle rolls",
+      "Wonton noodles"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Shenzhen",
+    "country_or_region": "Mainland China",
+    "highlights": "Modern city, design, coastline, theme parks, and technology industry.",
+    "climate": "Subtropical monsoon climate; hot humid summers and warm winters.",
+    "best_time": "October to December, March to April",
+    "attractions": [
+      {
+        "name": "Window of the World",
+        "description": "Theme park with miniature global landmarks and performances.",
+        "opening_hours": "Around 9:00 AM-10:00 PM",
+        "ticket": "Around CNY 220"
+      },
+      {
+        "name": "Shenzhen Bay Park",
+        "description": "Coastal promenade with skyline and bay views.",
+        "opening_hours": "Open all day",
+        "ticket": "Free"
+      },
+      {
+        "name": "Splendid China Folk Village",
+        "description": "Splendid China Folk Village is another popular attraction in Shenzhen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "OCT Loft",
+        "description": "OCT Loft is another popular attraction in Shenzhen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Dameisha Beach Park",
+        "description": "Dameisha Beach Park is another popular attraction in Shenzhen, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Chaoshan beef hot pot",
+      "Cantonese cuisine",
+      "Seafood",
+      "Dim sum"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Chongqing",
+    "country_or_region": "Mainland China",
+    "highlights": "Mountain city terrain, night views, hot pot, river scenery, and layered transit.",
+    "climate": "Humid subtropical climate; hot humid summers and damp chilly winters.",
+    "best_time": "March to May, September to November",
+    "attractions": [
+      {
+        "name": "Hongya Cave",
+        "description": "Stilt-house-style commercial district, especially popular at night.",
+        "opening_hours": "Exterior open all day; shops by business hours",
+        "ticket": "Exterior free"
+      },
+      {
+        "name": "Yangtze River Cableway",
+        "description": "Urban cable car crossing the river, a classic Chongqing transport experience.",
+        "opening_hours": "Around 8:00 AM-10:00 PM",
+        "ticket": "Around CNY 20-30"
+      },
+      {
+        "name": "Ciqikou Ancient Town",
+        "description": "Ciqikou Ancient Town is another popular attraction in Chongqing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Three Gorges Museum",
+        "description": "Three Gorges Museum is another popular attraction in Chongqing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Liziba Monorail Station",
+        "description": "Liziba Monorail Station is another popular attraction in Chongqing, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Chongqing hot pot",
+      "Xiaomian noodles",
+      "Hot and sour noodles",
+      "Maoxuewang"
+    ]
+  },
+  {
+    "tier": "Mainland China Popular Cities",
+    "city": "Suzhou",
+    "country_or_region": "Mainland China",
+    "highlights": "Classical gardens, canal towns, old city lanes, Kunqu opera, and Jiangnan lifestyle.",
+    "climate": "Subtropical monsoon climate; pleasant spring and autumn, humid plum-rain season.",
+    "best_time": "March to May, September to November",
+    "attractions": [
+      {
+        "name": "Humble Administrator's Garden",
+        "description": "Representative Chinese classical garden known for layered spaces and water scenery.",
+        "opening_hours": "Around 7:30 AM-5:30 PM, varies by season",
+        "ticket": "Around CNY 70 low season, CNY 90 high season"
+      },
+      {
+        "name": "Tiger Hill",
+        "description": "Historic Suzhou site with Yunyan Pagoda and garden scenery.",
+        "opening_hours": "Around 7:30 AM-5:30 PM",
+        "ticket": "Around CNY 60-70"
+      },
+      {
+        "name": "Lingering Garden",
+        "description": "Lingering Garden is another popular attraction in Suzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Pingjiang Road",
+        "description": "Pingjiang Road is another popular attraction in Suzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      },
+      {
+        "name": "Suzhou Museum",
+        "description": "Suzhou Museum is another popular attraction in Suzhou, adding more variety to the city itinerary.",
+        "opening_hours": "Opening hours vary by attraction and date; usually open during daytime",
+        "ticket": "Ticket policy varies by attraction"
+      }
+    ],
+    "foods": [
+      "Squirrel-shaped mandarin fish",
+      "Suzhou-style noodles",
+      "Sweet rice porridge",
+      "Crab roe xiaolongbao"
+    ]
+  }
+]

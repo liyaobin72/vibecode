@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Guide App Skill</title>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; line-height: 1.55; margin: 2rem; max-width: 980px; color: #1f2933; }
+    h1, h2 { color: #0f766e; }
+    code { background: #f1f5f9; padding: 0.1rem 0.25rem; border-radius: 4px; }
+    pre { background: #f8fafc; border: 1px solid #d9e2ec; padding: 1rem; overflow: auto; }
+    .meta { border: 1px solid #d9e2ec; background: #f8fafc; padding: 1rem; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Travel Guide App</h1>
+
+  <section class="meta">
+    <p><strong>Name:</strong> travel-guide-app</p>
+    <p><strong>Description:</strong> Use when working on or explaining the bilingual travel guide website in this workspace, including its JSON city data, local image assets, Google Flights price scraping, daily backend refresh, flight history, and deal-highlighting behavior.</p>
+  </section>
+
+  <h2>App Summary</h2>
+  <p>This workspace contains a bilingual travel guide website built from two JSON data files: <code>travel_cities_en.json</code> and <code>travel_cities_zh.json</code>.</p>
+  <p>The app shows a main city list grouped by travel tier. Each city has a detail page with city overview, climate, best travel time, attractions, food recommendations, local images, Toronto round-trip flight price, Google Flights link, and language switching between English and Chinese.</p>
+
+  <h2>Main Features</h2>
+  <ul>
+    <li>Bilingual UI using matching English and Chinese JSON files.</li>
+    <li>Main city cards grouped by travel tier.</li>
+    <li>City detail pages with hero image, highlights, five attractions, and foods.</li>
+    <li>Local images for cities, attractions, and foods under <code>assets/images</code>.</li>
+    <li>Daily Google Flights price refresh from Toronto to each city.</li>
+    <li>Flight price cache in <code>assets/flights.json</code>.</li>
+    <li>Flight price history in <code>assets/flight-history.json</code>.</li>
+    <li>Deal highlighting when the latest price is at least 10% below history average.</li>
+    <li>Google Flights links and displayed departure/return dates.</li>
+  </ul>
+
+  <h2>Technologies</h2>
+  <ul>
+    <li>Frontend: HTML, CSS, plain JavaScript.</li>
+    <li>Backend: Python <code>http.server</code> with custom <code>/api/flights</code>.</li>
+    <li>Browser automation: Playwright using Microsoft Edge.</li>
+    <li>Image search/download: Playwright plus Bing Images.</li>
+    <li>Flight scraping: Playwright plus rendered Google Flights pages.</li>
+    <li>Data storage: JSON files and local asset folders.</li>
+  </ul>
+
+  <h2>Important Files</h2>
+  <ul>
+    <li><code>index.html</code>: Main city-list page.</li>
+    <li><code>city.html</code>: City detail page shell.</li>
+    <li><code>app.js</code>: Main page rendering, language switcher, flight display, deal badge.</li>
+    <li><code>city.js</code>: City detail rendering from JSON and image map.</li>
+    <li><code>style.css</code>: Layout, cards, hero images, deal highlight styles.</li>
+    <li><code>server.py</code>: Local web server, <code>/api/flights</code>, daily flight refresh, flight history logic.</li>
+    <li><code>scrape_flight_price.js</code>: Playwright Google Flights scraper.</li>
+    <li><code>download_city_images_playwright.js</code>: City image downloader.</li>
+    <li><code>download_detail_images_playwright.js</code>: Attraction and food image downloader.</li>
+    <li><code>fill_missing_attraction_thumbnails.js</code>: Fallback thumbnail screenshot downloader.</li>
+    <li><code>refresh_all_flight_prices.js</code>: Manual all-city flight refresh and validation.</li>
+    <li><code>assets/image-map.json</code>: Maps city, attraction, and food names to local images.</li>
+    <li><code>assets/flights.json</code>: Latest flight prices and deal metadata.</li>
+    <li><code>assets/flight-history.json</code>: Historical flight-price records.</li>
+  </ul>
+
+  <h2>Build And Improvement Process</h2>
+  <ol>
+    <li>Created the first website structure with <code>index.html</code>, <code>city.html</code>, <code>app.js</code>, <code>city.js</code>, and <code>style.css</code>.</li>
+    <li>Rendered city cards by tier and city detail pages from JSON.</li>
+    <li>Added English/Chinese language switching.</li>
+    <li>Downloaded city images and updated both main cards and city pages to use local images.</li>
+    <li>Downloaded hotspot and food images.</li>
+    <li>Added screenshot fallback for image hosts that blocked direct downloads.</li>
+    <li>Expanded attractions from two to five per city in both JSON files.</li>
+    <li>Downloaded images for newly added attractions.</li>
+    <li>Added a Python backend server with <code>/api/flights</code>.</li>
+    <li>Added Playwright Google Flights scraping and daily refresh.</li>
+    <li>Added flight cache, flight history, and deal highlighting.</li>
+    <li>Improved UI copy and flight date display.</li>
+  </ol>
+
+  <h2>Bugs Fixed</h2>
+  <ul>
+    <li>Fixed <code>404 File not found</code> by serving from the correct workspace and later using <code>server.py</code>.</li>
+    <li>Fixed missing city detail images by replacing CSS background images with real <code>&lt;img&gt;</code> hero elements.</li>
+    <li>Fixed missing attraction/food images by adding Playwright thumbnail screenshot fallback.</li>
+    <li>Fixed impossible flight prices such as Toronto to Rome for <code>C$190</code>; the scraper had been reading Google price-insight text instead of route fares.</li>
+    <li>Fixed similar bad prices across multiple cities by rerunning all 36 routes with corrected parsing.</li>
+    <li>Fixed weak subtitle copy in both English and Chinese.</li>
+    <li>Removed visible history average while keeping internal deal comparison.</li>
+  </ul>
+
+  <h2>Operating Notes</h2>
+  <p>Start the app with:</p>
+  <pre><code>cd C:\Users\Ben\Documents\Codex\elsewhere
+python server.py</code></pre>
+  <p>Open:</p>
+  <pre><code>http://localhost:8000/index.html</code></pre>
+  <p>The flight refresh runs once when the server starts, then once per day.</p>
+</body>
+</html>
