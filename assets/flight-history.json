@@ -9618,6 +9618,50 @@
       "deal_label": null,
       "history_median_cad": 1547,
       "history_count": 1
+    },
+    {
+      "key": "2027-04-13|2027-06-06|1790339363",
+      "slug": "xi-an",
+      "city": "Xi'an",
+      "price_cad": 11897,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "XIY"
+      ],
+      "depart_date": "2027-04-13",
+      "return_date": "2027-06-06",
+      "nights": 54,
+      "airlines": [
+        "Air Canada, United, Air China",
+        "Korean Air, West, Jet"
+      ],
+      "airline": "Air Canada, United, Air China, Korean Air, West, Jet",
+      "stops": {
+        "outbound": 2,
+        "return": 2
+      },
+      "journey_duration_minutes": {
+        "outbound": 2360,
+        "return": 1330
+      },
+      "journey_duration": {
+        "outbound": "39 hr 20 min",
+        "return": "22 hr 10 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqCARIKMjAyNy0wNC0xMyIfCgNZWVoSCjIwMjctMDQtMTMaA0xBWCoCQUMyAzc5MyIfCgNMQVgSCjIwMjctMDQtMTMaA1BFSyoCVUEyAzc3MSIgCgNQRUsSCjIwMjctMDQtMTUaA1hJWSoCQ0EyBDEyMDVqBwgBEgNZWVpyBwgBEgNYSVkagAESCjIwMjctMDYtMDYiHwoDWElZEgoyMDI3LTA2LTA2GgNJQ04qAktFMgMxMzgiHgoDSUNOEgoyMDI3LTA2LTA2GgNZVlIqAktFMgI3MSIfCgNZVlISCjIwMjctMDYtMDYaA1lZWioCV1MyAzcyMmoHCAESA1hJWXIHCAESA1lZWkABSAFwAYIBCwj___________8BmAEB&tfu=CnxDalJJYlRNM05HWm1XVXRwU2tsQlJXMXpiRkZDUnkwdExTMHRMUzB0TFc5NWMyWXhOMEZCUVVGQlIzRXlZVkk0VDJ4dWJHdEJFaEJMUlRFek9IeExSVGN4ZkZkVE56SXlHZ3NJZ001SUVBSWFBME5CUkRnY2NNR3JNdz09EgIIACIA&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Xi%27an+%28XIY%29+April+13+2027+return+June+6+2027&curr=CAD&hl=en",
+      "discovered_at": 1790339363,
+      "verified_at": 1790339363,
+      "searched_at": 1790339363,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": null,
+      "history_count": 0
     }
   ],
   "chengdu": [
@@ -9932,6 +9976,49 @@
       "deal_label": null,
       "history_median_cad": null,
       "history_count": 0
+    },
+    {
+      "key": "2026-11-26|2026-12-14|1790339399",
+      "slug": "chengdu",
+      "city": "Chengdu",
+      "price_cad": 1548,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "CTU"
+      ],
+      "depart_date": "2026-11-26",
+      "return_date": "2026-12-14",
+      "nights": 18,
+      "airlines": [
+        "Cathay Pacific"
+      ],
+      "airline": "Cathay Pacific",
+      "stops": {
+        "outbound": 1,
+        "return": 1
+      },
+      "journey_duration_minutes": {
+        "outbound": 1430,
+        "return": 2095
+      },
+      "journey_duration": {
+        "outbound": "23 hr 50 min",
+        "return": "34 hr 55 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI2Ih8KA1lZWhIKMjAyNi0xMS0yNhoDSEtHKgJDWDIDODI5Ih8KA0hLRxIKMjAyNi0xMS0yNxoDQ1RVKgJDWDIDOTg2agcIARIDWVlacgcIARIDQ1RVGmASCjIwMjYtMTItMTQiHwoDQ1RVEgoyMDI2LTEyLTE0GgNIS0cqAkNYMgM5ODciHwoDSEtHEgoyMDI2LTEyLTE1GgNZWVoqAkNYMgM4MjhqBwgBEgNDVFVyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJU1hCWmRuTm9UbHBwTjBGQlJUUm5ja0ZDUnkwdExTMHRMUzB0YjNsaVltTXlNRUZCUVVGQlIzRXlZVlZaUW5KeVlYbEJFZ3REV0RrNE4zeERXRGd5T0JvTENNNjRDUkFDR2dORFFVUTRISERKMWdZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chengdu+%28CTU%29+November+26+2026+return+December+14+2026&curr=CAD&hl=en",
+      "discovered_at": 1790339399,
+      "verified_at": 1790339399,
+      "searched_at": 1790339399,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": 1582,
+      "history_count": 1
     }
   ],
   "hangzhou": [
@@ -10202,6 +10289,50 @@
       "deal_label": null,
       "history_median_cad": null,
       "history_count": 0
+    },
+    {
+      "key": "2026-12-07|2026-12-28|1790339439",
+      "slug": "hangzhou",
+      "city": "Hangzhou",
+      "price_cad": 2220,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "HGH"
+      ],
+      "depart_date": "2026-12-07",
+      "return_date": "2026-12-28",
+      "nights": 21,
+      "airlines": [
+        "Korean Air",
+        "Asiana Airlines, Korean Air"
+      ],
+      "airline": "Korean Air, Asiana Airlines, Korean Air",
+      "stops": {
+        "outbound": 1,
+        "return": 1
+      },
+      "journey_duration_minutes": {
+        "outbound": 2145,
+        "return": 1875
+      },
+      "journey_duration": {
+        "outbound": "35 hr 45 min",
+        "return": "31 hr 15 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI2LTEyLTA3Ih4KA1lZWhIKMjAyNi0xMi0wNxoDSUNOKgJLRTICNzgiHwoDSUNOEgoyMDI2LTEyLTA5GgNIR0gqAktFMgMxMDdqBwgBEgNZWVpyBwgBEgNIR0gaXxIKMjAyNi0xMi0yOCIfCgNIR0gSCjIwMjYtMTItMjgaA0lDTioCT1oyAzM2MCIeCgNJQ04SCjIwMjYtMTItMjkaA1lZWioCS0UyAjc3agcIARIDSEdIcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJTTFSNGJtMUZZbFZFYUdkQlJVZE5OR2RDUnkwdExTMHRMUzB0TFc5cllYRXhPVUZCUVVGQlIzRXlZVmQzUzFOc1lXZEJFZ3BQV2pNMk1IeExSVGMzR2dzSWk4WU5FQUlhQTBOQlJEZ2NjSS9LQ1E9PRICCAAiBgoBMAoBMQ&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Hangzhou+%28HGH%29+December+7+2026+return+December+28+2026&curr=CAD&hl=en",
+      "discovered_at": 1790339439,
+      "verified_at": 1790339439,
+      "searched_at": 1790339439,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": 2016,
+      "history_count": 1
     }
   ],
   "guilin-yangshuo": [
@@ -10650,6 +10781,50 @@
       "deal_label": null,
       "history_median_cad": null,
       "history_count": 0
+    },
+    {
+      "key": "2027-03-28|2027-05-19|1790339531",
+      "slug": "guangzhou",
+      "city": "Guangzhou",
+      "price_cad": 5505,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "CAN"
+      ],
+      "depart_date": "2027-03-28",
+      "return_date": "2027-05-19",
+      "nights": 52,
+      "airlines": [
+        "Qatar Airways, Malaysia Airlines",
+        "China Southern, Air Canada"
+      ],
+      "airline": "Qatar Airways, Malaysia Airlines, China Southern, Air Canada",
+      "stops": {
+        "outbound": 2,
+        "return": 1
+      },
+      "journey_duration_minutes": {
+        "outbound": 3130,
+        "return": 1198
+      },
+      "journey_duration": {
+        "outbound": "52 hr 10 min",
+        "return": "19 hr 58 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqBARIKMjAyNy0wMy0yOCIfCgNZWVoSCjIwMjctMDMtMjgaA0RPSCoCUVIyAzc2OCIfCgNET0gSCjIwMjctMDMtMzAaA0tVTCoCTUgyAzE2NSIfCgNLVUwSCjIwMjctMDMtMzEaA0NBTioCTUgyAzM3NmoHCAESA1lZWnIHCAESA0NBThpgEgoyMDI3LTA1LTE5Ih8KA0NBThIKMjAyNy0wNS0xORoDWVZSKgJDWjIDMzI5Ih8KA1lWUhIKMjAyNy0wNS0xORoDWVlaKgJBQzIDMTI4agcIARIDQ0FOcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJZDNGalN6QnFlRkk0VEc5QlJWRkxTbEZDUnkwdExTMHRMVzlyYW5FeE1TMXVNVUZCUVVGQlIzRXlZV05yUWsxbFlVMUJFZ3REV2pNeU9YeEJRekV5T0JvTENKYk1JUkFDR2dORFFVUTRISERENEJjPRICCAAiAA&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Guangzhou+%28CAN%29+March+28+2027+return+May+19+2027&curr=CAD&hl=en",
+      "discovered_at": 1790339531,
+      "verified_at": 1790339531,
+      "searched_at": 1790339531,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": 1776,
+      "history_count": 1
     }
   ],
   "shenzhen": [
@@ -11249,6 +11424,49 @@
       "deal_label": null,
       "history_median_cad": null,
       "history_count": 0
+    },
+    {
+      "key": "2026-11-12|2026-12-03|1790339583",
+      "slug": "chongqing",
+      "city": "Chongqing",
+      "price_cad": 1583,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "CKG"
+      ],
+      "depart_date": "2026-11-12",
+      "return_date": "2026-12-03",
+      "nights": 21,
+      "airlines": [
+        "Cathay Pacific"
+      ],
+      "airline": "Cathay Pacific",
+      "stops": {
+        "outbound": 1,
+        "return": 1
+      },
+      "journey_duration_minutes": {
+        "outbound": 2200,
+        "return": 2265
+      },
+      "journey_duration": {
+        "outbound": "36 hr 40 min",
+        "return": "37 hr 45 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDQ0tHKgJDWDIDOTY2agcIARIDWVlacgcIARIDQ0tHGmASCjIwMjYtMTItMDMiHwoDQ0tHEgoyMDI2LTEyLTAzGgNIS0cqAkNYMgM5NDUiHwoDSEtHEgoyMDI2LTEyLTA0GgNZWVoqAkNYMgM4MjhqBwgBEgNDS0dyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVTB4allXYzJjM0JFTjJkQlJWZEVjbEZDUnkwdExTMHRMUzB0TFc5cmJIWXhORUZCUVVGQlIzRXlZV1ozVDNkQk0zTkJFZ3REV0RrME5YeERXRGd5T0JvTENQclRDUkFDR2dORFFVUTRISEQwNlFZPRICCAAiBgoBMRIBMA&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chongqing+%28CKG%29+November+12+2026+return+December+3+2026&curr=CAD&hl=en",
+      "discovered_at": 1790339583,
+      "verified_at": 1790339583,
+      "searched_at": 1790339583,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": 1517,
+      "history_count": 1
     }
   ],
   "suzhou": [
@@ -11544,6 +11762,49 @@
       "deal_label": null,
       "history_median_cad": 1425,
       "history_count": 1
+    },
+    {
+      "key": "2026-11-12|2026-12-06|1790339634",
+      "slug": "suzhou",
+      "city": "Suzhou",
+      "price_cad": 1426,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "SHA"
+      ],
+      "depart_date": "2026-11-12",
+      "return_date": "2026-12-06",
+      "nights": 24,
+      "airlines": [
+        "Cathay Pacific"
+      ],
+      "airline": "Cathay Pacific",
+      "stops": {
+        "outbound": 1,
+        "return": 1
+      },
+      "journey_duration_minutes": {
+        "outbound": 1980,
+        "return": 1625
+      },
+      "journey_duration": {
+        "outbound": "33 hr",
+        "return": "27 hr 5 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDU0hBKgJDWDIDMzQ4agcIARIDWVlacgcIARIDU0hBGmASCjIwMjYtMTItMDYiHwoDU0hBEgoyMDI2LTEyLTA2GgNIS0cqAkNYMgMzMjciHwoDSEtHEgoyMDI2LTEyLTA3GgNZWVoqAkNYMgM4MjhqBwgBEgNTSEFyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJZVc5VVdFdE9TMmRrWm05QlJWODNlbWRDUnkwdExTMHRMUzB0TFc5NWMyUXhPRUZCUVVGQlIzRXlZV3BCVGtodGNtbEJFZ3REV0RNeU4zeERXRGd5T0JvTENLYlpDQkFDR2dORFFVUTRISENYa3dZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Shanghai+%28SHA%29+November+12+2026+return+December+6+2026&curr=CAD&hl=en",
+      "discovered_at": 1790339634,
+      "verified_at": 1790339634,
+      "searched_at": 1790339634,
+      "google_price_insight": null,
+      "verification_status": "verified",
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": 1425,
+      "history_count": 2
     }
   ]
 }

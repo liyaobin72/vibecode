@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
   "origin": "YYZ",
-  "updated_at": 1790339307,
+  "updated_at": 1790339634,
   "refresh_started_at": 1790338339,
-  "refresh_completed_at": null,
-  "refresh_status": "updating",
+  "refresh_completed_at": 1790339634,
+  "refresh_status": "partial",
   "prices": {
     "bangkok": {
       "status": "no_verified_fare",
@@ -1251,16 +1251,61 @@
       "last_successfully_verified_at": 1790339307
     },
     "xi-an": {
-      "status": "updating",
+      "status": "verified",
       "verification_status": "verified",
-      "price_cad": 1547,
+      "price_cad": 11897,
       "currency": "CAD",
       "origin_airport": "YYZ",
       "destination_airports": [
         "XIY"
       ],
-      "depart_date": "2026-11-19",
-      "return_date": "2026-12-07",
+      "depart_date": "2027-04-13",
+      "return_date": "2027-06-06",
+      "nights": 54,
+      "airlines": [
+        "Air Canada, United, Air China",
+        "Korean Air, West, Jet"
+      ],
+      "airline": "Air Canada, United, Air China, Korean Air, West, Jet",
+      "stops": {
+        "outbound": 2,
+        "return": 2
+      },
+      "journey_duration_minutes": {
+        "outbound": 2360,
+        "return": 1330
+      },
+      "journey_duration": {
+        "outbound": "39 hr 20 min",
+        "return": "22 hr 10 min"
+      },
+      "cabin_fare": "Economy (including Basic)",
+      "baggage": null,
+      "google_price_insight": null,
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Xi%27an+%28XIY%29+April+13+2027+return+June+6+2027&curr=CAD&hl=en",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqCARIKMjAyNy0wNC0xMyIfCgNZWVoSCjIwMjctMDQtMTMaA0xBWCoCQUMyAzc5MyIfCgNMQVgSCjIwMjctMDQtMTMaA1BFSyoCVUEyAzc3MSIgCgNQRUsSCjIwMjctMDQtMTUaA1hJWSoCQ0EyBDEyMDVqBwgBEgNZWVpyBwgBEgNYSVkagAESCjIwMjctMDYtMDYiHwoDWElZEgoyMDI3LTA2LTA2GgNJQ04qAktFMgMxMzgiHgoDSUNOEgoyMDI3LTA2LTA2GgNZVlIqAktFMgI3MSIfCgNZVlISCjIwMjctMDYtMDYaA1lZWioCV1MyAzcyMmoHCAESA1hJWXIHCAESA1lZWkABSAFwAYIBCwj___________8BmAEB&tfu=CnxDalJJYlRNM05HWm1XVXRwU2tsQlJXMXpiRkZDUnkwdExTMHRMUzB0TFc5NWMyWXhOMEZCUVVGQlIzRXlZVkk0VDJ4dWJHdEJFaEJMUlRFek9IeExSVGN4ZkZkVE56SXlHZ3NJZ001SUVBSWFBME5CUkRnY2NNR3JNdz09EgIIACIA&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqCARIKMjAyNy0wNC0xMyIfCgNZWVoSCjIwMjctMDQtMTMaA0xBWCoCQUMyAzc5MyIfCgNMQVgSCjIwMjctMDQtMTMaA1BFSyoCVUEyAzc3MSIgCgNQRUsSCjIwMjctMDQtMTUaA1hJWSoCQ0EyBDEyMDVqBwgBEgNZWVpyBwgBEgNYSVkagAESCjIwMjctMDYtMDYiHwoDWElZEgoyMDI3LTA2LTA2GgNJQ04qAktFMgMxMzgiHgoDSUNOEgoyMDI3LTA2LTA2GgNZVlIqAktFMgI3MSIfCgNZVlISCjIwMjctMDYtMDYaA1lZWioCV1MyAzcyMmoHCAESA1hJWXIHCAESA1lZWkABSAFwAYIBCwj___________8BmAEB&tfu=CnxDalJJYlRNM05HWm1XVXRwU2tsQlJXMXpiRkZDUnkwdExTMHRMUzB0TFc5NWMyWXhOMEZCUVVGQlIzRXlZVkk0VDJ4dWJHdEJFaEJMUlRFek9IeExSVGN4ZkZkVE56SXlHZ3NJZ001SUVBSWFBME5CUkRnY2NNR3JNdz09EgIIACIA&hl=en&curr=CAD",
+      "discovered_at": 1790339363,
+      "verified_at": 1790339363,
+      "verification_attempts": 1,
+      "deal_label": null,
+      "history_median_cad": null,
+      "history_count": 0,
+      "discount_percent": null,
+      "is_deal": false,
+      "last_successfully_verified_at": 1790339363
+    },
+    "chengdu": {
+      "status": "verified",
+      "verification_status": "verified",
+      "price_cad": 1548,
+      "currency": "CAD",
+      "origin_airport": "YYZ",
+      "destination_airports": [
+        "CTU"
+      ],
+      "depart_date": "2026-11-26",
+      "return_date": "2026-12-14",
       "nights": 18,
       "airlines": [
         "Cathay Pacific"
@@ -1271,125 +1316,76 @@
         "return": 1
       },
       "journey_duration_minutes": {
-        "outbound": 2120,
-        "return": 2020
-      },
-      "journey_duration": {
-        "outbound": "35 hr 20 min",
-        "return": "33 hr 40 min"
-      },
-      "cabin_fare": "Economy (including Basic)",
-      "baggage": null,
-      "google_price_insight": null,
-      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Xi%27an+%28XIY%29+November+19+2026+return+December+7+2026&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTE5Ih8KA1lZWhIKMjAyNi0xMS0xORoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0yMRoDWElZKgJDWDIDOTQ2agcIARIDWVlacgcIARIDWElZGmASCjIwMjYtMTItMDciHwoDWElZEgoyMDI2LTEyLTA3GgNIS0cqAkNYMgM5NDciHwoDSEtHEgoyMDI2LTEyLTA4GgNZWVoqAkNYMgM4MjhqBwgBEgNYSVlyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVW5kbGVpMHdOMEppZFZGQlJYVmlPR2RDUnkwdExTMHRMUzB0YjJ0aWFua3lORUZCUVVGQlIzRXhUVEYzU0hFeVREQkJFZ3REV0RrME4zeERXRGd5T0JvTENLYTRDUkFDR2dORFFVUTRISERWMWdZPRICCAAiAwoBMQ&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTE5Ih8KA1lZWhIKMjAyNi0xMS0xORoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0yMRoDWElZKgJDWDIDOTQ2agcIARIDWVlacgcIARIDWElZGmASCjIwMjYtMTItMDciHwoDWElZEgoyMDI2LTEyLTA3GgNIS0cqAkNYMgM5NDciHwoDSEtHEgoyMDI2LTEyLTA4GgNZWVoqAkNYMgM4MjhqBwgBEgNYSVlyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVW5kbGVpMHdOMEppZFZGQlJYVmlPR2RDUnkwdExTMHRMUzB0YjJ0aWFua3lORUZCUVVGQlIzRXhUVEYzU0hFeVREQkJFZ3REV0RrME4zeERXRGd5T0JvTENLYTRDUkFDR2dORFFVUTRISERWMWdZPRICCAAiAwoBMQ&hl=en&curr=CAD",
-      "discovered_at": 1790260064,
-      "verified_at": 1790260064,
-      "verification_attempts": 1,
-      "deal_label": null,
-      "history_median_cad": 1547,
-      "history_count": 1,
-      "discount_percent": null,
-      "is_deal": false,
-      "last_successfully_verified_at": 1790260064,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
-    },
-    "chengdu": {
-      "status": "updating",
-      "verification_status": "verified",
-      "price_cad": 1582,
-      "currency": "CAD",
-      "origin_airport": "YYZ",
-      "destination_airports": [
-        "CTU"
-      ],
-      "depart_date": "2026-11-23",
-      "return_date": "2026-12-13",
-      "nights": 20,
-      "airlines": [
-        "Cathay Pacific"
-      ],
-      "airline": "Cathay Pacific",
-      "stops": {
-        "outbound": 1,
-        "return": 1
-      },
-      "journey_duration_minutes": {
         "outbound": 1430,
-        "return": 1540
+        "return": 2095
       },
       "journey_duration": {
         "outbound": "23 hr 50 min",
-        "return": "25 hr 40 min"
+        "return": "34 hr 55 min"
       },
       "cabin_fare": "Economy (including Basic)",
       "baggage": null,
       "google_price_insight": null,
-      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chengdu+%28CTU%29+November+23+2026+return+December+13+2026&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTIzIh8KA1lZWhIKMjAyNi0xMS0yMxoDSEtHKgJDWDIDODI5Ih8KA0hLRxIKMjAyNi0xMS0yNBoDQ1RVKgJDWDIDOTg2agcIARIDWVlacgcIARIDQ1RVGmASCjIwMjYtMTItMTMiHwoDQ1RVEgoyMDI2LTEyLTEzGgNIS0cqAkNYMgM5MTciHwoDSEtHEgoyMDI2LTEyLTEzGgNZWVoqAkNYMgM4MjZqBwgBEgNDVFVyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJUTJKdGVYazJiSFJvUTI5QlNGQnRZWGRDUnkwdExTMHRMUzB0TFc5NVkycGpORUZCUVVGQlIzRXhUVFZOVDA1NGJHZEJFZ3REV0RreE4zeERXRGd5TmhvTENOTFRDUkFDR2dORFFVUTRISENCNmdZPRICCAAiBgoBMAoBMQ&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTIzIh8KA1lZWhIKMjAyNi0xMS0yMxoDSEtHKgJDWDIDODI5Ih8KA0hLRxIKMjAyNi0xMS0yNBoDQ1RVKgJDWDIDOTg2agcIARIDWVlacgcIARIDQ1RVGmASCjIwMjYtMTItMTMiHwoDQ1RVEgoyMDI2LTEyLTEzGgNIS0cqAkNYMgM5MTciHwoDSEtHEgoyMDI2LTEyLTEzGgNZWVoqAkNYMgM4MjZqBwgBEgNDVFVyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJUTJKdGVYazJiSFJvUTI5QlNGQnRZWGRDUnkwdExTMHRMUzB0TFc5NVkycGpORUZCUVVGQlIzRXhUVFZOVDA1NGJHZEJFZ3REV0RreE4zeERXRGd5TmhvTENOTFRDUkFDR2dORFFVUTRISENCNmdZPRICCAAiBgoBMAoBMQ&hl=en&curr=CAD",
-      "discovered_at": 1790260119,
-      "verified_at": 1790260119,
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chengdu+%28CTU%29+November+26+2026+return+December+14+2026&curr=CAD&hl=en",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI2Ih8KA1lZWhIKMjAyNi0xMS0yNhoDSEtHKgJDWDIDODI5Ih8KA0hLRxIKMjAyNi0xMS0yNxoDQ1RVKgJDWDIDOTg2agcIARIDWVlacgcIARIDQ1RVGmASCjIwMjYtMTItMTQiHwoDQ1RVEgoyMDI2LTEyLTE0GgNIS0cqAkNYMgM5ODciHwoDSEtHEgoyMDI2LTEyLTE1GgNZWVoqAkNYMgM4MjhqBwgBEgNDVFVyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJU1hCWmRuTm9UbHBwTjBGQlJUUm5ja0ZDUnkwdExTMHRMUzB0YjNsaVltTXlNRUZCUVVGQlIzRXlZVlZaUW5KeVlYbEJFZ3REV0RrNE4zeERXRGd5T0JvTENNNjRDUkFDR2dORFFVUTRISERKMWdZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI2Ih8KA1lZWhIKMjAyNi0xMS0yNhoDSEtHKgJDWDIDODI5Ih8KA0hLRxIKMjAyNi0xMS0yNxoDQ1RVKgJDWDIDOTg2agcIARIDWVlacgcIARIDQ1RVGmASCjIwMjYtMTItMTQiHwoDQ1RVEgoyMDI2LTEyLTE0GgNIS0cqAkNYMgM5ODciHwoDSEtHEgoyMDI2LTEyLTE1GgNZWVoqAkNYMgM4MjhqBwgBEgNDVFVyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJU1hCWmRuTm9UbHBwTjBGQlJUUm5ja0ZDUnkwdExTMHRMUzB0YjNsaVltTXlNRUZCUVVGQlIzRXlZVlZaUW5KeVlYbEJFZ3REV0RrNE4zeERXRGd5T0JvTENNNjRDUkFDR2dORFFVUTRISERKMWdZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "discovered_at": 1790339399,
+      "verified_at": 1790339399,
       "verification_attempts": 1,
       "deal_label": null,
-      "history_median_cad": null,
-      "history_count": 0,
+      "history_median_cad": 1582,
+      "history_count": 1,
       "discount_percent": null,
       "is_deal": false,
-      "last_successfully_verified_at": 1790260119,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "last_successfully_verified_at": 1790339399
     },
     "hangzhou": {
-      "status": "updating",
+      "status": "verified",
       "verification_status": "verified",
-      "price_cad": 2016,
+      "price_cad": 2220,
       "currency": "CAD",
       "origin_airport": "YYZ",
       "destination_airports": [
         "HGH"
       ],
-      "depart_date": "2026-12-06",
-      "return_date": "2026-12-27",
+      "depart_date": "2026-12-07",
+      "return_date": "2026-12-28",
       "nights": 21,
       "airlines": [
-        "Hainan"
+        "Korean Air",
+        "Asiana Airlines, Korean Air"
       ],
-      "airline": "Hainan",
+      "airline": "Korean Air, Asiana Airlines, Korean Air",
       "stops": {
         "outbound": 1,
         "return": 1
       },
       "journey_duration_minutes": {
-        "outbound": 1120,
-        "return": 1120
+        "outbound": 2145,
+        "return": 1875
       },
       "journey_duration": {
-        "outbound": "18 hr 40 min",
-        "return": "18 hr 40 min"
+        "outbound": "35 hr 45 min",
+        "return": "31 hr 15 min"
       },
       "cabin_fare": "Economy (including Basic)",
       "baggage": null,
       "google_price_insight": null,
-      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Hangzhou+December+6+2026+return+December+27+2026&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpoEgoyMDI2LTEyLTA2IiAKA1lZWhIKMjAyNi0xMi0wNhoDUEVLKgJIVTIENzk3NiIgCgNQRUsSCjIwMjYtMTItMDcaA0hHSCoCSFUyBDczNzdqBwgBEgNZWVpyDQgCEgkvbS8wMTR2bTQaaBIKMjAyNi0xMi0yNyIgCgNIR0gSCjIwMjYtMTItMjcaA1BFSyoCSFUyBDc0NzgiIAoDUEVLEgoyMDI2LTEyLTI3GgNZWVoqAkhVMgQ3OTc1ag0IAhIJL20vMDE0dm00cgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnhDalJJTlZSdU1rcEthVXQ2WVRCQlNHWm5MVkZDUnkwdExTMHRMUzB0YjNsalozRXhNVUZCUVVGQlIzRXhURTA0VDJwVVRtVkJFZzFJVlRjME56aDhTRlUzT1RjMUdnc0lxS1lNRUFJYUEwTkJSRGdjY0tmYUNBPT0SAggAIgYKATAKATE&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpoEgoyMDI2LTEyLTA2IiAKA1lZWhIKMjAyNi0xMi0wNhoDUEVLKgJIVTIENzk3NiIgCgNQRUsSCjIwMjYtMTItMDcaA0hHSCoCSFUyBDczNzdqBwgBEgNZWVpyDQgCEgkvbS8wMTR2bTQaaBIKMjAyNi0xMi0yNyIgCgNIR0gSCjIwMjYtMTItMjcaA1BFSyoCSFUyBDc0NzgiIAoDUEVLEgoyMDI2LTEyLTI3GgNZWVoqAkhVMgQ3OTc1ag0IAhIJL20vMDE0dm00cgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnhDalJJTlZSdU1rcEthVXQ2WVRCQlNHWm5MVkZDUnkwdExTMHRMUzB0YjNsalozRXhNVUZCUVVGQlIzRXhURTA0VDJwVVRtVkJFZzFJVlRjME56aDhTRlUzT1RjMUdnc0lxS1lNRUFJYUEwTkJSRGdjY0tmYUNBPT0SAggAIgYKATAKATE&hl=en&curr=CAD",
-      "discovered_at": 1790258387,
-      "verified_at": 1790258387,
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Hangzhou+%28HGH%29+December+7+2026+return+December+28+2026&curr=CAD&hl=en",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI2LTEyLTA3Ih4KA1lZWhIKMjAyNi0xMi0wNxoDSUNOKgJLRTICNzgiHwoDSUNOEgoyMDI2LTEyLTA5GgNIR0gqAktFMgMxMDdqBwgBEgNZWVpyBwgBEgNIR0gaXxIKMjAyNi0xMi0yOCIfCgNIR0gSCjIwMjYtMTItMjgaA0lDTioCT1oyAzM2MCIeCgNJQ04SCjIwMjYtMTItMjkaA1lZWioCS0UyAjc3agcIARIDSEdIcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJTTFSNGJtMUZZbFZFYUdkQlJVZE5OR2RDUnkwdExTMHRMUzB0TFc5cllYRXhPVUZCUVVGQlIzRXlZVmQzUzFOc1lXZEJFZ3BQV2pNMk1IeExSVGMzR2dzSWk4WU5FQUlhQTBOQlJEZ2NjSS9LQ1E9PRICCAAiBgoBMAoBMQ&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI2LTEyLTA3Ih4KA1lZWhIKMjAyNi0xMi0wNxoDSUNOKgJLRTICNzgiHwoDSUNOEgoyMDI2LTEyLTA5GgNIR0gqAktFMgMxMDdqBwgBEgNZWVpyBwgBEgNIR0gaXxIKMjAyNi0xMi0yOCIfCgNIR0gSCjIwMjYtMTItMjgaA0lDTioCT1oyAzM2MCIeCgNJQ04SCjIwMjYtMTItMjkaA1lZWioCS0UyAjc3agcIARIDSEdIcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJTTFSNGJtMUZZbFZFYUdkQlJVZE5OR2RDUnkwdExTMHRMUzB0TFc5cllYRXhPVUZCUVVGQlIzRXlZVmQzUzFOc1lXZEJFZ3BQV2pNMk1IeExSVGMzR2dzSWk4WU5FQUlhQTBOQlJEZ2NjSS9LQ1E9PRICCAAiBgoBMAoBMQ&hl=en&curr=CAD",
+      "discovered_at": 1790339439,
+      "verified_at": 1790339439,
       "verification_attempts": 1,
       "deal_label": null,
-      "history_median_cad": null,
-      "history_count": 0,
+      "history_median_cad": 2016,
+      "history_count": 1,
       "discount_percent": null,
       "is_deal": false,
-      "last_successfully_verified_at": 1790258387,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "last_successfully_verified_at": 1790339439
     },
     "guilin-yangshuo": {
-      "status": "updating",
+      "status": "no_verified_fare",
       "verification_status": "verified",
       "price_cad": 2630,
       "currency": "CAD",
@@ -1431,57 +1427,56 @@
       "discount_percent": null,
       "is_deal": false,
       "last_successfully_verified_at": 1790258430,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "refresh_error": "no_discovery_candidates",
+      "last_refresh_attempt_at": 1790339480
     },
     "guangzhou": {
-      "status": "updating",
+      "status": "verified",
       "verification_status": "verified",
-      "price_cad": 1776,
+      "price_cad": 5505,
       "currency": "CAD",
       "origin_airport": "YYZ",
       "destination_airports": [
         "CAN"
       ],
-      "depart_date": "2027-03-26",
+      "depart_date": "2027-03-28",
       "return_date": "2027-05-19",
-      "nights": 54,
+      "nights": 52,
       "airlines": [
-        "Cathay Pacific"
+        "Qatar Airways, Malaysia Airlines",
+        "China Southern, Air Canada"
       ],
-      "airline": "Cathay Pacific",
+      "airline": "Qatar Airways, Malaysia Airlines, China Southern, Air Canada",
       "stops": {
-        "outbound": 1,
+        "outbound": 2,
         "return": 1
       },
       "journey_duration_minutes": {
-        "outbound": 1065,
-        "return": 1440
+        "outbound": 3130,
+        "return": 1198
       },
       "journey_duration": {
-        "outbound": "17 hr 45 min",
-        "return": "24 hr"
+        "outbound": "52 hr 10 min",
+        "return": "19 hr 58 min"
       },
       "cabin_fare": "Economy (including Basic)",
       "baggage": null,
       "google_price_insight": null,
-      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Guangzhou+%28CAN%29+March+26+2027+return+May+19+2027&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTI2Ih8KA1lZWhIKMjAyNy0wMy0yNhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNy0wMy0yNxoDQ0FOKgJDWDIDOTQwagcIARIDWVlacgcIARIDQ0FOGmASCjIwMjctMDUtMTkiHwoDQ0FOEgoyMDI3LTA1LTE5GgNIS0cqAkNYMgM5ODMiHwoDSEtHEgoyMDI3LTA1LTE5GgNZWVoqAkNYMgM4MjZqBwgBEgNDQU5yBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJU0cxbFoySmlTalJtUmxGQlJucDZaMEZDUnkwdExTMHRMUzB0YjNsaVpIVXhNMEZCUVVGQlIzRXhUVjlGUzJWME1UWkJFZ3REV0RrNE0zeERXRGd5TmhvTENKcnJDaEFDR2dORFFVUTRISENiMVFjPRICCAAiAwoBMA&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTI2Ih8KA1lZWhIKMjAyNy0wMy0yNhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNy0wMy0yNxoDQ0FOKgJDWDIDOTQwagcIARIDWVlacgcIARIDQ0FOGmASCjIwMjctMDUtMTkiHwoDQ0FOEgoyMDI3LTA1LTE5GgNIS0cqAkNYMgM5ODMiHwoDSEtHEgoyMDI3LTA1LTE5GgNZWVoqAkNYMgM4MjZqBwgBEgNDQU5yBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJU0cxbFoySmlTalJtUmxGQlJucDZaMEZDUnkwdExTMHRMUzB0YjNsaVpIVXhNMEZCUVVGQlIzRXhUVjlGUzJWME1UWkJFZ3REV0RrNE0zeERXRGd5TmhvTENKcnJDaEFDR2dORFFVUTRISENiMVFjPRICCAAiAwoBMA&hl=en&curr=CAD",
-      "discovered_at": 1790260216,
-      "verified_at": 1790260216,
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Guangzhou+%28CAN%29+March+28+2027+return+May+19+2027&curr=CAD&hl=en",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqBARIKMjAyNy0wMy0yOCIfCgNZWVoSCjIwMjctMDMtMjgaA0RPSCoCUVIyAzc2OCIfCgNET0gSCjIwMjctMDMtMzAaA0tVTCoCTUgyAzE2NSIfCgNLVUwSCjIwMjctMDMtMzEaA0NBTioCTUgyAzM3NmoHCAESA1lZWnIHCAESA0NBThpgEgoyMDI3LTA1LTE5Ih8KA0NBThIKMjAyNy0wNS0xORoDWVZSKgJDWjIDMzI5Ih8KA1lWUhIKMjAyNy0wNS0xORoDWVlaKgJBQzIDMTI4agcIARIDQ0FOcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJZDNGalN6QnFlRkk0VEc5QlJWRkxTbEZDUnkwdExTMHRMVzlyYW5FeE1TMXVNVUZCUVVGQlIzRXlZV05yUWsxbFlVMUJFZ3REV2pNeU9YeEJRekV5T0JvTENKYk1JUkFDR2dORFFVUTRISERENEJjPRICCAAiAA&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhqBARIKMjAyNy0wMy0yOCIfCgNZWVoSCjIwMjctMDMtMjgaA0RPSCoCUVIyAzc2OCIfCgNET0gSCjIwMjctMDMtMzAaA0tVTCoCTUgyAzE2NSIfCgNLVUwSCjIwMjctMDMtMzEaA0NBTioCTUgyAzM3NmoHCAESA1lZWnIHCAESA0NBThpgEgoyMDI3LTA1LTE5Ih8KA0NBThIKMjAyNy0wNS0xORoDWVZSKgJDWjIDMzI5Ih8KA1lWUhIKMjAyNy0wNS0xORoDWVlaKgJBQzIDMTI4agcIARIDQ0FOcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnRDalJJZDNGalN6QnFlRkk0VEc5QlJWRkxTbEZDUnkwdExTMHRMVzlyYW5FeE1TMXVNVUZCUVVGQlIzRXlZV05yUWsxbFlVMUJFZ3REV2pNeU9YeEJRekV5T0JvTENKYk1JUkFDR2dORFFVUTRISERENEJjPRICCAAiAA&hl=en&curr=CAD",
+      "discovered_at": 1790339531,
+      "verified_at": 1790339531,
       "verification_attempts": 1,
       "deal_label": null,
-      "history_median_cad": null,
-      "history_count": 0,
+      "history_median_cad": 1776,
+      "history_count": 1,
       "discount_percent": null,
       "is_deal": false,
-      "last_successfully_verified_at": 1790260216,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "last_successfully_verified_at": 1790339531
     },
     "shenzhen": {
-      "status": "updating",
+      "status": "no_verified_fare",
       "verification_status": "verified",
       "price_cad": 1570,
       "currency": "CAD",
@@ -1523,59 +1518,57 @@
       "discount_percent": null,
       "is_deal": false,
       "last_successfully_verified_at": 1790260264,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "refresh_error": "no_discovery_candidates",
+      "last_refresh_attempt_at": 1790339559
     },
     "chongqing": {
-      "status": "updating",
+      "status": "verified",
       "verification_status": "verified",
-      "price_cad": 1517,
+      "price_cad": 1583,
       "currency": "CAD",
       "origin_airport": "YYZ",
       "destination_airports": [
         "CKG"
       ],
-      "depart_date": "2026-11-08",
-      "return_date": "2026-12-05",
-      "nights": 27,
+      "depart_date": "2026-11-12",
+      "return_date": "2026-12-03",
+      "nights": 21,
       "airlines": [
-        "Hainan"
+        "Cathay Pacific"
       ],
-      "airline": "Hainan",
+      "airline": "Cathay Pacific",
       "stops": {
         "outbound": 1,
         "return": 1
       },
       "journey_duration_minutes": {
-        "outbound": 1185,
-        "return": 1960
+        "outbound": 2200,
+        "return": 2265
       },
       "journey_duration": {
-        "outbound": "19 hr 45 min",
-        "return": "32 hr 40 min"
+        "outbound": "36 hr 40 min",
+        "return": "37 hr 45 min"
       },
       "cabin_fare": "Economy (including Basic)",
       "baggage": null,
       "google_price_insight": null,
-      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chongqing+%28CKG%29+November+8+2026+return+December+5+2026&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpiEgoyMDI2LTExLTA4IiAKA1lZWhIKMjAyNi0xMS0wOBoDUEVLKgJIVTIENzk3NiIgCgNQRUsSCjIwMjYtMTEtMDkaA0NLRyoCSFUyBDczNjdqBwgBEgNZWVpyBwgBEgNDS0caYhIKMjAyNi0xMi0wNSIgCgNDS0cSCjIwMjYtMTItMDUaA1BFSyoCSFUyBDczNjgiIAoDUEVLEgoyMDI2LTEyLTA2GgNZWVoqAkhVMgQ3OTc1agcIARIDQ0tHcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnhDalJJU0VaNVlrMVFSMDFvZDBWQlIwdEJYMEZDUnkwdExTMHRMUzF2ZVdkek5pMXVNa0ZCUVVGQlIzRXhUa1pCU0RnM1F6UkJFZzFJVlRjek5qaDhTRlUzT1RjMUdnc0l2S0FKRUFJYUEwTkJSRGdjY09qRkJnPT0SAggAIgYKATAKATE&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpiEgoyMDI2LTExLTA4IiAKA1lZWhIKMjAyNi0xMS0wOBoDUEVLKgJIVTIENzk3NiIgCgNQRUsSCjIwMjYtMTEtMDkaA0NLRyoCSFUyBDczNjdqBwgBEgNZWVpyBwgBEgNDS0caYhIKMjAyNi0xMi0wNSIgCgNDS0cSCjIwMjYtMTItMDUaA1BFSyoCSFUyBDczNjgiIAoDUEVLEgoyMDI2LTEyLTA2GgNZWVoqAkhVMgQ3OTc1agcIARIDQ0tHcgcIARIDWVlaQAFIAXABggELCP___________wGYAQE&tfu=CnhDalJJU0VaNVlrMVFSMDFvZDBWQlIwdEJYMEZDUnkwdExTMHRMUzF2ZVdkek5pMXVNa0ZCUVVGQlIzRXhUa1pCU0RnM1F6UkJFZzFJVlRjek5qaDhTRlUzT1RjMUdnc0l2S0FKRUFJYUEwTkJSRGdjY09qRkJnPT0SAggAIgYKATAKATE&hl=en&curr=CAD",
-      "discovered_at": 1790260308,
-      "verified_at": 1790260308,
+      "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Chongqing+%28CKG%29+November+12+2026+return+December+3+2026&curr=CAD&hl=en",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDQ0tHKgJDWDIDOTY2agcIARIDWVlacgcIARIDQ0tHGmASCjIwMjYtMTItMDMiHwoDQ0tHEgoyMDI2LTEyLTAzGgNIS0cqAkNYMgM5NDUiHwoDSEtHEgoyMDI2LTEyLTA0GgNZWVoqAkNYMgM4MjhqBwgBEgNDS0dyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVTB4allXYzJjM0JFTjJkQlJWZEVjbEZDUnkwdExTMHRMUzB0TFc5cmJIWXhORUZCUVVGQlIzRXlZV1ozVDNkQk0zTkJFZ3REV0RrME5YeERXRGd5T0JvTENQclRDUkFDR2dORFFVUTRISEQwNlFZPRICCAAiBgoBMRIBMA&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDQ0tHKgJDWDIDOTY2agcIARIDWVlacgcIARIDQ0tHGmASCjIwMjYtMTItMDMiHwoDQ0tHEgoyMDI2LTEyLTAzGgNIS0cqAkNYMgM5NDUiHwoDSEtHEgoyMDI2LTEyLTA0GgNZWVoqAkNYMgM4MjhqBwgBEgNDS0dyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJVTB4allXYzJjM0JFTjJkQlJWZEVjbEZDUnkwdExTMHRMUzB0TFc5cmJIWXhORUZCUVVGQlIzRXlZV1ozVDNkQk0zTkJFZ3REV0RrME5YeERXRGd5T0JvTENQclRDUkFDR2dORFFVUTRISEQwNlFZPRICCAAiBgoBMRIBMA&hl=en&curr=CAD",
+      "discovered_at": 1790339583,
+      "verified_at": 1790339583,
       "verification_attempts": 1,
       "deal_label": null,
-      "history_median_cad": null,
-      "history_count": 0,
+      "history_median_cad": 1517,
+      "history_count": 1,
       "discount_percent": null,
       "is_deal": false,
-      "last_successfully_verified_at": 1790260308,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "last_successfully_verified_at": 1790339583
     },
     "suzhou": {
-      "status": "updating",
+      "status": "verified",
       "verification_status": "verified",
-      "price_cad": 1425,
+      "price_cad": 1426,
       "currency": "CAD",
       "origin_airport": "YYZ",
       "destination_airports": [
@@ -1604,19 +1597,17 @@
       "baggage": null,
       "google_price_insight": null,
       "search_url": "https://www.google.com/travel/flights/search?q=Flights+from+Toronto+%28YYZ%29+to+Shanghai+%28SHA%29+November+12+2026+return+December+6+2026&curr=CAD&hl=en",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDU0hBKgJDWDIDMzQ4agcIARIDWVlacgcIARIDU0hBGmASCjIwMjYtMTItMDYiHwoDU0hBEgoyMDI2LTEyLTA2GgNIS0cqAkNYMgMzMjciHwoDSEtHEgoyMDI2LTEyLTA3GgNZWVoqAkNYMgM4MjhqBwgBEgNTSEFyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJY2xwZmVERTNiRXhqV2poQlJYbHhOSGRDUnkwdExTMHRMUzF2YTNWb015MXVNa0ZCUVVGQlIzRXhUa2haVGxwUmVuRkJFZ3REV0RNeU4zeERXRGd5T0JvTENQN1lDQkFDR2dORFFVUTRISENma3dZPRICCAAiAxIBMA&hl=en&curr=CAD",
-      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDU0hBKgJDWDIDMzQ4agcIARIDWVlacgcIARIDU0hBGmASCjIwMjYtMTItMDYiHwoDU0hBEgoyMDI2LTEyLTA2GgNIS0cqAkNYMgMzMjciHwoDSEtHEgoyMDI2LTEyLTA3GgNZWVoqAkNYMgM4MjhqBwgBEgNTSEFyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJY2xwZmVERTNiRXhqV2poQlJYbHhOSGRDUnkwdExTMHRMUzF2YTNWb015MXVNa0ZCUVVGQlIzRXhUa2haVGxwUmVuRkJFZ3REV0RNeU4zeERXRGd5T0JvTENQN1lDQkFDR2dORFFVUTRISENma3dZPRICCAAiAxIBMA&hl=en&curr=CAD",
-      "discovered_at": 1790260346,
-      "verified_at": 1790260346,
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDU0hBKgJDWDIDMzQ4agcIARIDWVlacgcIARIDU0hBGmASCjIwMjYtMTItMDYiHwoDU0hBEgoyMDI2LTEyLTA2GgNIS0cqAkNYMgMzMjciHwoDSEtHEgoyMDI2LTEyLTA3GgNZWVoqAkNYMgM4MjhqBwgBEgNTSEFyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJZVc5VVdFdE9TMmRrWm05QlJWODNlbWRDUnkwdExTMHRMUzB0TFc5NWMyUXhPRUZCUVVGQlIzRXlZV3BCVGtodGNtbEJFZ3REV0RNeU4zeERXRGd5T0JvTENLYlpDQkFDR2dORFFVUTRISENYa3dZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "exact_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTEyIh8KA1lZWhIKMjAyNi0xMS0xMhoDSEtHKgJDWDIDODA1Ih8KA0hLRxIKMjAyNi0xMS0xNBoDU0hBKgJDWDIDMzQ4agcIARIDWVlacgcIARIDU0hBGmASCjIwMjYtMTItMDYiHwoDU0hBEgoyMDI2LTEyLTA2GgNIS0cqAkNYMgMzMjciHwoDSEtHEgoyMDI2LTEyLTA3GgNZWVoqAkNYMgM4MjhqBwgBEgNTSEFyBwgBEgNZWVpAAUgBcAGCAQsI____________AZgBAQ&tfu=CnRDalJJZVc5VVdFdE9TMmRrWm05QlJWODNlbWRDUnkwdExTMHRMUzB0TFc5NWMyUXhPRUZCUVVGQlIzRXlZV3BCVGtodGNtbEJFZ3REV0RNeU4zeERXRGd5T0JvTENLYlpDQkFDR2dORFFVUTRISENYa3dZPRICCAAiAxIBMA&hl=en&curr=CAD",
+      "discovered_at": 1790339634,
+      "verified_at": 1790339634,
       "verification_attempts": 1,
       "deal_label": null,
       "history_median_cad": 1425,
-      "history_count": 1,
+      "history_count": 2,
       "discount_percent": null,
       "is_deal": false,
-      "last_successfully_verified_at": 1790260346,
-      "refresh_error": null,
-      "last_refresh_attempt_at": 1790338339
+      "last_successfully_verified_at": 1790339634
     }
   }
 }
