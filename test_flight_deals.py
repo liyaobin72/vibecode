@@ -1,6 +1,6 @@
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 from datetime import date
 from pathlib import Path
 
@@ -80,6 +80,23 @@ class FlightDealTests(unittest.TestCase):
             server.atomic_write_json(target, {"ok": True})
             self.assertEqual(server.load_json(target, {}), {"ok": True})
             self.assertEqual(list(Path(directory).glob("*.tmp")), [])
+
+    def test_scheduler_starts_refreshes_hourly_without_overlap(self):
+        stop_event = MagicMock()
+        stop_event.is_set.side_effect = [False, True]
+        with patch.object(server, "_stop", stop_event), patch.object(server, "refresh_flights") as refresh, \
+                patch.object(server.time, "monotonic", side_effect=[100, 130]):
+            server.scheduler_loop()
+        refresh.assert_called_once_with()
+        stop_event.wait.assert_called_once_with((60 * 60) - 30)
+
+    def test_scheduler_does_not_overlap_a_refresh_longer_than_one_hour(self):
+        stop_event = MagicMock()
+        stop_event.is_set.side_effect = [False, True]
+        with patch.object(server, "_stop", stop_event), patch.object(server, "refresh_flights"), \
+                patch.object(server.time, "monotonic", side_effect=[100, 3800]):
+            server.scheduler_loop()
+        stop_event.wait.assert_called_once_with(0)
 
 
 if __name__ == "__main__":
