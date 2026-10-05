@@ -23,7 +23,7 @@ DIAGNOSTIC_DIR = ROOT / "logs" / "flight-diagnostics"
 SCRAPER_PATH = ROOT / "scrape_flight_price.js"
 
 ORIGIN_AIRPORT = "YYZ"
-FLIGHT_REFRESH_INTERVAL_SECONDS = 24 * 60 * 60
+FLIGHT_REFRESH_INTERVAL_SECONDS = 60 * 60
 PRICE_EXPIRES_AFTER_SECONDS = 7 * 24 * 60 * 60
 DISCOVERY_PROFILES = 2
 DISCOVERY_RESULTS_PER_PROFILE = 5
@@ -448,8 +448,10 @@ def refresh_flights(selected_slugs=None):
 
 def scheduler_loop():
     while not _stop.is_set():
+        cycle_started_at = time.monotonic()
         refresh_flights()
-        _stop.wait(FLIGHT_REFRESH_INTERVAL_SECONDS)
+        elapsed = time.monotonic() - cycle_started_at
+        _stop.wait(max(0, FLIGHT_REFRESH_INTERVAL_SECONDS - elapsed))
 
 
 class Handler(SimpleHTTPRequestHandler):
