@@ -25,9 +25,10 @@ SCRAPER_PATH = ROOT / "scrape_flight_price.js"
 ORIGIN_AIRPORT = "YYZ"
 FLIGHT_REFRESH_INTERVAL_SECONDS = 60 * 60
 PRICE_EXPIRES_AFTER_SECONDS = 7 * 24 * 60 * 60
-DISCOVERY_PROFILES = 2
 DISCOVERY_RESULTS_PER_PROFILE = 5
 MAX_CANDIDATES_TO_VERIFY = 2
+DEFAULT_MAX_STAY_NIGHTS = 60
+CHINA_MAX_STAY_NIGHTS = 180
 MIN_COMPARABLE_HISTORY = 3
 COMPARABLE_STAY_NIGHTS = 7
 COMPARABLE_SEASON_MONTHS = 1
@@ -58,6 +59,10 @@ TRANSATLANTIC_CITIES = {
 SUSPICIOUS_MINIMUMS = {"short": 150, "transatlantic": 300, "long_haul": 500}
 REPRESENTATIVE_SLUGS = ["new-york", "london", "tokyo"]
 GOOGLE_DESTINATION_LABELS = {"Suzhou": "Shanghai"}
+CHINA_LONG_STAY_CITIES = {
+    "Beijing", "Shanghai", "Xi'an", "Chengdu", "Hangzhou", "Guilin/Yangshuo", "Guangzhou", "Shenzhen",
+    "Chongqing", "Suzhou", "Hong Kong", "Macau",
+}
 
 _lock = threading.Lock()
 _stop = threading.Event()
@@ -196,15 +201,23 @@ def deal_metadata(candidate, history_entries):
     }
 
 
-def discovery_seeds(slug, today=None):
+def stay_limit_for_city(city):
+    return CHINA_MAX_STAY_NIGHTS if city in CHINA_LONG_STAY_CITIES else DEFAULT_MAX_STAY_NIGHTS
+
+
+def discovery_seeds(slug, today=None, max_stay_nights=DEFAULT_MAX_STAY_NIGHTS):
     today = today or date.today()
     city_hash = sum((index + 1) * ord(char) for index, char in enumerate(slug))
     offsets = [45 + city_hash % 45, 150 + city_hash % 90]
     stays = [21 + city_hash % 7, 48 + city_hash % 10]
+    if max_stay_nights > DEFAULT_MAX_STAY_NIGHTS:
+        offsets.extend([25 + city_hash % 20, 100 + city_hash % 80])
+        stays.extend([105 + city_hash % 30, 151 + city_hash % 30])
     seeds = []
     for offset, stay in zip(offsets, stays):
         depart = today + timedelta(days=offset)
-        seeds.append({"depart_date": depart.isoformat(), "return_date": (depart + timedelta(days=stay)).isoformat()})
+        bounded_stay = min(stay, max_stay_nights)
+        seeds.append({"depart_date": depart.isoformat(), "return_date": (depart + timedelta(days=bounded_stay)).isoformat()})
     return seeds
 
 
@@ -240,8 +253,10 @@ def base_request(city, slug):
 
 def discover_candidates(city, slug):
     candidates = []
-    for profile, seed in enumerate(discovery_seeds(slug), start=1):
-        request = {**base_request(city, slug), **seed, "action": "discover", "limit": DISCOVERY_RESULTS_PER_PROFILE}
+    max_stay_nights = stay_limit_for_city(city)
+    for profile, seed in enumerate(discovery_seeds(slug, max_stay_nights=max_stay_nights), start=1):
+        request = {**base_request(city, slug), **seed, "action": "discover", "limit": DISCOVERY_RESULTS_PER_PROFILE,
+                   "max_stay_nights": max_stay_nights}
         result = scraper_request(request)
         if result.get("status") != "ok":
             logger.warning("Flight discovery failed city=%s profile=%s reason=%s", city, profile, result.get("rejection_reason"))

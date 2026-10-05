@@ -74,7 +74,7 @@ function inferGridDate(monthName, day, referenceIso) {
   return isoDate(candidates[0]);
 }
 
-function parseGridCandidate(label, departReference, returnReference) {
+function parseGridCandidate(label, departReference, returnReference, maxStayNights = 60) {
   const match = String(label || "").match(/(?:CA\$|C\$)\s*([0-9][0-9,]*).*?\b([A-Z][a-z]{2})\s+(\d{1,2})\s+to\s+([A-Z][a-z]{2})\s+(\d{1,2})/i);
   if (!match) return null;
   const price = Number(match[1].replace(/,/g, ""));
@@ -87,7 +87,7 @@ function parseGridCandidate(label, departReference, returnReference) {
     returnDate = isoDate(adjusted);
   }
   const nights = Math.round((parseIso(returnDate) - parseIso(departDate)) / 86_400_000);
-  if (nights < 14 || nights > 60 || price < MIN_PRICE_CAD || price > MAX_PRICE_CAD) return null;
+  if (nights < 14 || nights > maxStayNights || price < MIN_PRICE_CAD || price > MAX_PRICE_CAD) return null;
   return { depart_date: departDate, return_date: returnDate, nights, estimated_price_cad: price };
 }
 
@@ -138,7 +138,8 @@ async function discovery(page, request) {
   await page.waitForTimeout(2500);
   const labels = await dialog.locator("button, [role='button'], [aria-label]").evaluateAll((nodes) =>
     [...new Set(nodes.map((node) => node.getAttribute("aria-label") || node.innerText).filter(Boolean))]);
-  const candidates = labels.map((label) => parseGridCandidate(label, request.depart_date, request.return_date)).filter(Boolean)
+  const candidates = labels.map((label) =>
+    parseGridCandidate(label, request.depart_date, request.return_date, request.max_stay_nights || 60)).filter(Boolean)
     .sort((a, b) => a.estimated_price_cad - b.estimated_price_cad || a.nights - b.nights);
   const unique = [];
   const seen = new Set();

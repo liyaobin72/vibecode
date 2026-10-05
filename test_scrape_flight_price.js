@@ -16,4 +16,13 @@ const candidate = scraper.parseGridCandidate("CA$394, cheapest price, Nov 7 to N
 assert.deepEqual(candidate, { depart_date: "2026-11-07", return_date: "2026-11-28", nights: 21, estimated_price_cad: 394 });
 assert.equal(scraper.parseGridCandidate("CA$394, Nov 7 to Nov 10", "2026-11-10", "2026-11-10"), null, "short stays must be rejected");
 
+const chinaLongStay = scraper.parseGridCandidate("CA$1,432, cheapest price, Nov 4 to Feb 25", "2026-11-03", "2027-02-20", 180);
+assert.deepEqual(chinaLongStay, { depart_date: "2026-11-04", return_date: "2027-02-25", nights: 113, estimated_price_cad: 1432 });
+assert.equal(scraper.parseGridCandidate("CA$1,432, Nov 4 to Feb 25", "2026-11-03", "2027-02-20"), null,
+  "non-China searches must retain the 60-night default");
+const chinaMaximumStay = scraper.parseGridCandidate("CA$1,432, Nov 4 to May 3", "2026-11-03", "2027-05-01", 180);
+assert.equal(chinaMaximumStay.nights, 180, "China searches must accept exactly 180 nights");
+assert.equal(scraper.parseGridCandidate("CA$1,432, Nov 4 to May 4", "2026-11-03", "2027-05-01", 180), null,
+  "China searches must reject stays over 180 nights");
+
 console.log("scraper parser tests passed");
