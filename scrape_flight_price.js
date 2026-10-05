@@ -27,14 +27,15 @@ function parseStops(value) {
   return match ? Number(match[1]) : null;
 }
 
-function parseFlightCard(text) {
+function parseFlightCard(text, allowPlainDollar = false) {
   const lines = String(text || "").split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
   const joined = lines.join("\n");
-  const priceMatch = joined.match(/(?:CA\$|C\$)\s*([0-9][0-9,]*)\s*\n?round trip\b/i);
+  const priceMatch = joined.match(/(?:CA\$|C\$)\s*([0-9][0-9,]*)\s*\n?round trip\b/i) ||
+    (allowPlainDollar ? joined.match(/\$\s*([0-9][0-9,]*)\s*\n?round trip\b/i) : null);
   const routeMatch = joined.match(/\b([A-Z]{3})\s*[–—-]\s*([A-Z]{3})\b/);
   const durationIndex = lines.findIndex((line) => parseDuration(line) !== null);
   const stopsLine = lines.find((line) => /^(?:nonstop|\d+\s+stops?)$/i.test(line));
-  const times = lines.filter((line) => /\b\d{1,2}:\d{2}\s*(?:AM|PM)\b/i.test(line)).slice(0, 2);
+  const times = lines.filter((line) => /\b\d{1,2}:\d{2}\s*(?:a\.?m\.?|p\.?m\.?)\b/i.test(line)).slice(0, 2);
   if (!priceMatch || !routeMatch || durationIndex < 0 || !stopsLine || times.length < 2) return null;
   const price = Number(priceMatch[1].replace(/,/g, ""));
   if (!Number.isFinite(price) || price < MIN_PRICE_CAD || price > MAX_PRICE_CAD) return null;
@@ -74,8 +75,10 @@ function inferGridDate(monthName, day, referenceIso) {
   return isoDate(candidates[0]);
 }
 
-function parseGridCandidate(label, departReference, returnReference) {
-  const match = String(label || "").match(/(?:CA\$|C\$)\s*([0-9][0-9,]*).*?\b([A-Z][a-z]{2})\s+(\d{1,2})\s+to\s+([A-Z][a-z]{2})\s+(\d{1,2})/i);
+function parseGridCandidate(label, departReference, returnReference, maxStayNights = 60, allowPlainDollar = false) {
+  const value = String(label || "");
+  const match = value.match(/(?:CA\$|C\$)\s*([0-9][0-9,]*).*?\b([A-Z][a-z]{2})\s+(\d{1,2})\s+to\s+([A-Z][a-z]{2})\s+(\d{1,2})/i) ||
+    (allowPlainDollar ? value.match(/\$\s*([0-9][0-9,]*).*?\b([A-Z][a-z]{2})\s+(\d{1,2})\s+to\s+([A-Z][a-z]{2})\s+(\d{1,2})/i) : null);
   if (!match) return null;
   const price = Number(match[1].replace(/,/g, ""));
   const departDate = inferGridDate(match[2], match[3], departReference);
@@ -87,7 +90,7 @@ function parseGridCandidate(label, departReference, returnReference) {
     returnDate = isoDate(adjusted);
   }
   const nights = Math.round((parseIso(returnDate) - parseIso(departDate)) / 86_400_000);
-  if (nights < 14 || nights > 60 || price < MIN_PRICE_CAD || price > MAX_PRICE_CAD) return null;
+  if (nights < 14 || nights > maxStayNights || price < MIN_PRICE_CAD || price > MAX_PRICE_CAD) return null;
   return { depart_date: departDate, return_date: returnDate, nights, estimated_price_cad: price };
 }
 
@@ -98,16 +101,29 @@ function exactSearchUrl(city, departDate, returnDate, destinationAirport) {
   };
   const destination = destinationAirport ? `${city} (${destinationAirport})` : city;
   const query = `Flights from Toronto (YYZ) to ${destination} ${format(departDate)} return ${format(returnDate)}`;
-  return `https://www.google.com/travel/flights/search?${new URLSearchParams({ q: query, curr: "CAD", hl: "en" }).toString()}`;
+  return canadianGoogleFlightsUrl(`https://www.google.com/travel/flights/search?${new URLSearchParams({ q: query }).toString()}`);
+}
+
+function canadianGoogleFlightsUrl(value) {
+  const url = new URL(value);
+  url.searchParams.set("curr", "CAD");
+  url.searchParams.set("gl", "CA");
+  url.searchParams.set("hl", "en-CA");
+  return url.toString();
 }
 
 async function waitForCards(page) {
   await page.locator("li.pIav2d").first().waitFor({ state: "visible", timeout: RESULTS_WAIT_MS });
 }
 
-async function cardData(page) {
+async function pageUsesCad(page) {
+  const bodyText = await page.locator("body").innerText({ timeout: RESULTS_WAIT_MS });
+  return /Currency\s*(?:[·:]\s*)?CAD\b/i.test(bodyText);
+}
+
+async function cardData(page, allowPlainDollar = false) {
   const texts = await page.locator("li.pIav2d").allInnerTexts();
-  return texts.map((text, index) => ({ index, parsed: parseFlightCard(text) })).filter((item) => item.parsed);
+  return texts.map((text, index) => ({ index, parsed: parseFlightCard(text, allowPlainDollar) })).filter((item) => item.parsed);
 }
 
 function matchesLeg(card, origin, allowedDestinations) {
@@ -130,6 +146,7 @@ async function discovery(page, request) {
   const url = exactSearchUrl(searchCity, request.depart_date, request.return_date, request.destination_airport);
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: PAGE_TIMEOUT_MS });
   await waitForCards(page);
+  if (!(await pageUsesCad(page))) throw new Error("search_currency_not_cad");
   const dateGrid = page.getByRole("button", { name: "Date grid", exact: true });
   await dateGrid.waitFor({ state: "visible", timeout: RESULTS_WAIT_MS });
   await dateGrid.click();
@@ -138,7 +155,8 @@ async function discovery(page, request) {
   await page.waitForTimeout(2500);
   const labels = await dialog.locator("button, [role='button'], [aria-label]").evaluateAll((nodes) =>
     [...new Set(nodes.map((node) => node.getAttribute("aria-label") || node.innerText).filter(Boolean))]);
-  const candidates = labels.map((label) => parseGridCandidate(label, request.depart_date, request.return_date)).filter(Boolean)
+  const candidates = labels.map((label) =>
+    parseGridCandidate(label, request.depart_date, request.return_date, request.max_stay_nights || 60, true)).filter(Boolean)
     .sort((a, b) => a.estimated_price_cad - b.estimated_price_cad || a.nights - b.nights);
   const unique = [];
   const seen = new Set();
@@ -171,12 +189,14 @@ function priceInsight(bodyText) {
 }
 
 async function verify(page, request) {
-  const searchUrl = request.search_url || exactSearchUrl(request.search_city || request.city, request.depart_date, request.return_date, request.destination_airport);
+  const searchUrl = canadianGoogleFlightsUrl(request.search_url ||
+    exactSearchUrl(request.search_city || request.city, request.depart_date, request.return_date, request.destination_airport));
   await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: PAGE_TIMEOUT_MS });
   await waitForCards(page);
+  if (!(await pageUsesCad(page))) throw new Error("search_currency_not_cad");
   const origin = request.origin_airport || "YYZ";
   const allowed = request.allowed_destination_airports || [request.destination_airport];
-  let outboundChoices = (await cardData(page)).filter(({ parsed }) => matchesLeg(parsed, origin, allowed));
+  let outboundChoices = (await cardData(page, true)).filter(({ parsed }) => matchesLeg(parsed, origin, allowed));
   if (request.expected?.outbound) outboundChoices = outboundChoices.filter(({ parsed }) => sameLeg(parsed, request.expected.outbound));
   outboundChoices.sort((a, b) => practicalScore(a.parsed) - practicalScore(b.parsed));
   if (!outboundChoices.length) throw new Error("no_matching_outbound_itinerary");
@@ -185,7 +205,7 @@ async function verify(page, request) {
   await page.waitForTimeout(1200);
   await waitForCards(page);
 
-  let returnChoices = (await cardData(page)).filter(({ parsed }) => allowed.includes(parsed.origin_airport) && parsed.destination_airport === origin);
+  let returnChoices = (await cardData(page, true)).filter(({ parsed }) => allowed.includes(parsed.origin_airport) && parsed.destination_airport === origin);
   if (request.expected?.return) returnChoices = returnChoices.filter(({ parsed }) => sameLeg(parsed, request.expected.return));
   if (request.expected?.price_cad) returnChoices = returnChoices.filter(({ parsed }) => parsed.price_cad === request.expected.price_cad);
   returnChoices.sort((a, b) => practicalScore(a.parsed) - practicalScore(b.parsed));
@@ -196,12 +216,12 @@ async function verify(page, request) {
   await page.getByText("Selected flights", { exact: true }).waitFor({ state: "visible", timeout: RESULTS_WAIT_MS }).catch(() => null);
   await page.waitForTimeout(1200);
   const bodyText = await page.locator("body").innerText({ timeout: RESULTS_WAIT_MS });
-  const exactUrl = page.url();
+  const exactUrl = canadianGoogleFlightsUrl(page.url());
   const price = returnChoice.parsed.price_cad;
   const routeVerified = bodyText.includes(`${outboundChoice.parsed.origin_airport}–${outboundChoice.parsed.destination_airport}`) &&
     bodyText.includes(`${returnChoice.parsed.origin_airport}–${returnChoice.parsed.destination_airport}`);
   const datesVerified = bodyText.includes(dateMarker(request.depart_date)) && bodyText.includes(dateMarker(request.return_date));
-  const currencyVerified = /Currency\s*CAD/i.test(bodyText) || /[?&]curr=CAD\b/.test(exactUrl);
+  const currencyVerified = /Currency\s*(?:[·:]\s*)?CAD\b/i.test(bodyText);
   if (!routeVerified) throw new Error("booking_summary_route_mismatch");
   if (!datesVerified) throw new Error("booking_summary_date_mismatch");
   if (!currencyVerified) throw new Error("booking_summary_currency_mismatch");

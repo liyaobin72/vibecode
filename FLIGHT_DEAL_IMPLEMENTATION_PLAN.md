@@ -4,7 +4,7 @@
 
 Replace the fixed next-Monday flight search with a flexible Google Flights search that publishes one best verified round-trip deal from Toronto for every city.
 
-The traveller can change both dates and length of stay. The published result may represent a stay of roughly two weeks through two months. The interface shows only one best deal per city; alternative itineraries remain internal search candidates.
+The traveller can change both dates and length of stay. For mainland China, Hong Kong, and Macau, the published result may represent a stay of roughly two weeks through 180 days. Other destinations remain limited to stays of roughly two weeks through two months. The interface shows only one best deal per city; alternative itineraries remain internal search candidates.
 
 ## Source and operating constraints
 
@@ -39,7 +39,7 @@ Do not add a list of trip-length choices or multiple public deals.
 
 ### 1. Flexible candidate discovery
 
-For each city, use Google Flights flexible-date surfaces such as the date grid, price graph, Explore, or Flight Deals to find promising departure and return combinations. Consider varied stays from approximately 14 to 60 nights rather than four fixed duration buckets.
+For each city, use Google Flights flexible-date surfaces such as the date grid, price graph, Explore, or Flight Deals to find promising departure and return combinations. Consider varied stays from approximately 14 to 60 nights for most destinations. For mainland China, Hong Kong, and Macau, also consider long stays up to 180 days.
 
 Collect a small internal candidate set. Avoid exhaustive searches across every date pair because that would be slow and would increase blocking risk.
 

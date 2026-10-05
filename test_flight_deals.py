@@ -74,6 +74,41 @@ class FlightDealTests(unittest.TestCase):
         self.assertTrue(all(14 <= nights <= 60 for nights in stays))
         self.assertGreater(max(stays) - min(stays), 20)
 
+    def test_china_destinations_include_long_stays_up_to_180_days(self):
+        seeds = server.discovery_seeds("guangzhou", date(2026, 10, 5), server.CHINA_MAX_STAY_NIGHTS)
+        stays = [(date.fromisoformat(seed["return_date"]) - date.fromisoformat(seed["depart_date"])).days for seed in seeds]
+        self.assertEqual(server.stay_limit_for_city("Guangzhou"), 180)
+        self.assertEqual(server.stay_limit_for_city("Hong Kong"), 180)
+        self.assertEqual(server.stay_limit_for_city("Macau"), 180)
+        self.assertEqual(len(seeds), 4)
+        self.assertTrue(any(nights > 60 for nights in stays))
+        self.assertTrue(all(14 <= nights <= 180 for nights in stays))
+
+    def test_non_china_destinations_remain_capped_at_60_days(self):
+        seeds = server.discovery_seeds("rome", date(2026, 10, 5), server.stay_limit_for_city("Rome"))
+        stays = [(date.fromisoformat(seed["return_date"]) - date.fromisoformat(seed["depart_date"])).days for seed in seeds]
+        self.assertEqual(server.stay_limit_for_city("Rome"), 60)
+        self.assertEqual(len(seeds), 2)
+        self.assertTrue(all(14 <= nights <= 60 for nights in stays))
+
+    def test_discovery_sends_destination_stay_limit_to_scraper(self):
+        requests = []
+
+        def discover(request):
+            requests.append(request)
+            return {"status": "ok", "candidates": []}
+
+        with patch.object(server, "scraper_request", side_effect=discover):
+            server.discover_candidates("Guangzhou", "guangzhou")
+        self.assertEqual(len(requests), 4)
+        self.assertTrue(all(request["max_stay_nights"] == 180 for request in requests))
+
+        requests.clear()
+        with patch.object(server, "scraper_request", side_effect=discover):
+            server.discover_candidates("Rome", "rome")
+        self.assertEqual(len(requests), 2)
+        self.assertTrue(all(request["max_stay_nights"] == 60 for request in requests))
+
     def test_atomic_json_write(self):
         with tempfile.TemporaryDirectory() as directory:
             target = Path(directory) / "cache.json"
