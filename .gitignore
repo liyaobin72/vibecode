@@ -6,3 +6,5 @@ node_modules/
 server.out.log
 server.err.log
 logs/
+/assets/flights.json
+/assets/flight-history.json
