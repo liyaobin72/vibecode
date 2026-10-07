@@ -41,6 +41,33 @@ class FlightDealTests(unittest.TestCase):
         self.assertTrue(server.is_suspicious("London", self.candidate(400), entries))
         self.assertFalse(server.is_suspicious("London", self.candidate(800), entries))
 
+    def test_extreme_high_price_is_rejected_against_comparable_history(self):
+        entries = [self.observation(2300, "a"), self.observation(2400, "b"), self.observation(2350, "c")]
+        self.assertTrue(server.is_implausibly_expensive(self.candidate(8474), entries))
+        self.assertFalse(server.is_implausibly_expensive(self.candidate(4000), entries))
+
+    def test_high_price_is_not_rejected_without_enough_comparable_history(self):
+        entries = [self.observation(2300, "a"), self.observation(2400, "b")]
+        self.assertFalse(server.is_implausibly_expensive(self.candidate(8474), entries))
+
+    def test_cached_extreme_outlier_is_suppressed_instead_of_retained(self):
+        entries = [self.observation(2300, "a"), self.observation(2400, "b"), self.observation(2350, "c")]
+        previous = {**self.candidate(8474), "verification_status": "verified", "status": "verified", "verified_at": 900,
+                    "deal_label": "above_normal", "discount_percent": -260}
+        retained = server.retained_or_suppressed_record(previous, "no_verified_fare", 1000, entries, "refresh_failed")
+        self.assertIsNone(retained["price_cad"])
+        self.assertEqual(retained["verification_status"], "rejected")
+        self.assertEqual(retained["suppression_reason"], "extreme_high_price_outlier")
+        self.assertEqual(retained["suppressed_price_cad"], 8474)
+
+    def test_cached_high_but_plausible_price_is_retained(self):
+        entries = [self.observation(2300, "a"), self.observation(2400, "b"), self.observation(2350, "c")]
+        previous = {**self.candidate(4000), "verification_status": "verified", "status": "verified", "verified_at": 900}
+        retained = server.retained_or_suppressed_record(previous, "temporarily_unavailable", 1000, entries, "refresh_failed")
+        self.assertEqual(retained["price_cad"], 4000)
+        self.assertEqual(retained["verification_status"], "verified")
+        self.assertNotIn("suppression_reason", retained)
+
     def test_suspicious_candidate_requires_fresh_second_verification(self):
         candidate = {**self.candidate(400), "outbound": {"origin_airport": "YYZ"}, "return": {"destination_airport": "YYZ"},
                      "search_url": "https://example.test/search", "discovered_at": 10}

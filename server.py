@@ -33,6 +33,7 @@ MIN_COMPARABLE_HISTORY = 3
 COMPARABLE_STAY_NIGHTS = 7
 COMPARABLE_SEASON_MONTHS = 1
 SUSPICIOUS_BASELINE_RATIO = 0.55
+MAX_REASONABLE_BASELINE_RATIO = 2.0
 DISCOUNT_WEIGHT = 1_000
 PRICE_WEIGHT = 0.25
 STOP_PENALTY = 90
@@ -310,6 +311,17 @@ def is_suspicious(city, candidate, history_entries):
     return False
 
 
+def is_implausibly_expensive(candidate, history_entries):
+    price = candidate.get("price_cad")
+    if not isinstance(price, (int, float)):
+        return False
+    comparable = comparable_history(history_entries, candidate)
+    if len(comparable) < MIN_COMPARABLE_HISTORY:
+        return False
+    baseline = statistics.median(entry["price_cad"] for entry in comparable)
+    return price > baseline * MAX_REASONABLE_BASELINE_RATIO
+
+
 def recheck_suspicious(city, slug, candidate):
     expected = {"price_cad": candidate["price_cad"], "outbound": candidate.get("outbound"), "return": candidate.get("return")}
     request = {**base_request(city, slug), "action": "recheck", "depart_date": candidate["depart_date"],
@@ -372,6 +384,25 @@ def retained_record(previous, final_status, attempted_at, reason=None):
             "refresh_error": reason, "legacy_unverified": previous or None}
 
 
+def retained_or_suppressed_record(previous, final_status, attempted_at, history_entries, reason=None):
+    if not is_implausibly_expensive(previous, history_entries):
+        return retained_record(previous, final_status, attempted_at, reason)
+    record = dict(previous)
+    record.update({
+        "status": final_status,
+        "verification_status": "rejected",
+        "price_cad": None,
+        "deal_label": None,
+        "discount_percent": None,
+        "is_deal": False,
+        "suppression_reason": "extreme_high_price_outlier",
+        "suppressed_price_cad": previous.get("price_cad"),
+        "refresh_error": reason or "extreme_high_price_outlier",
+        "last_refresh_attempt_at": attempted_at,
+    })
+    return record
+
+
 def write_state(cache, history):
     with _lock:
         atomic_write_json(FLIGHT_HISTORY, history)
@@ -392,7 +423,11 @@ def refresh_flights(selected_slugs=None):
     }
     for item in cities:
         slug = slugify(item["city"])
-        prices[slug] = retained_record(previous_prices.get(slug, {}), "updating", started_at)
+        prices[slug] = retained_or_suppressed_record(
+            previous_prices.get(slug, {}), "updating", started_at, history.get(slug, []))
+        if prices[slug].get("suppression_reason") == "extreme_high_price_outlier":
+            logger.warning("Cached extreme high flight price suppressed city=%s price_cad=%s",
+                           item["city"], prices[slug].get("suppressed_price_cad"))
     write_state(cache, history)
     logger.info("Flight refresh started cities=%s selected=%s", len(cities), sorted(selected) if selected else "all")
 
@@ -404,14 +439,18 @@ def refresh_flights(selected_slugs=None):
         city = item["city"]
         slug = slugify(city)
         if not AIRPORTS.get(city):
-            prices[slug] = retained_record(previous_prices.get(slug, {}), "temporarily_unavailable", utc_timestamp(), "missing_airport_mapping")
+            prices[slug] = retained_or_suppressed_record(
+                previous_prices.get(slug, {}), "temporarily_unavailable", utc_timestamp(), history.get(slug, []),
+                "missing_airport_mapping")
             logger.warning("No airport mapping city=%s", city)
             failure_count += 1
             continue
         try:
             candidates = discover_candidates(city, slug)
             if not candidates:
-                prices[slug] = retained_record(previous_prices.get(slug, {}), "no_verified_fare", utc_timestamp(), "no_discovery_candidates")
+                prices[slug] = retained_or_suppressed_record(
+                    previous_prices.get(slug, {}), "no_verified_fare", utc_timestamp(), history.get(slug, []),
+                    "no_discovery_candidates")
                 logger.warning("No discovery candidates city=%s retained_previous=%s", city, bool(prices[slug].get("price_cad")))
                 failure_count += 1
                 write_state(cache, history)
@@ -420,6 +459,15 @@ def refresh_flights(selected_slugs=None):
             history_entries = history.setdefault(slug, [])
             accepted = []
             for candidate in verified:
+                if is_implausibly_expensive(candidate, history_entries):
+                    metadata = deal_metadata(candidate, history_entries)
+                    rejected.append({"verification_status": "rejected", "rejection_reason": "extreme_high_price_outlier",
+                                     "depart_date": candidate.get("depart_date"), "return_date": candidate.get("return_date"),
+                                     "price_cad": candidate.get("price_cad")})
+                    logger.warning("Extreme high flight price rejected city=%s price_cad=%s history_median_cad=%s history_count=%s",
+                                   city, candidate.get("price_cad"), metadata.get("history_median_cad"),
+                                   metadata.get("history_count"))
+                    continue
                 if is_suspicious(city, candidate, history_entries):
                     checked = recheck_suspicious(city, slug, candidate)
                     if checked:
@@ -432,7 +480,8 @@ def refresh_flights(selected_slugs=None):
                     accepted.append(candidate)
             if not accepted:
                 reason = rejected[-1]["rejection_reason"] if rejected else "no_verified_candidate"
-                prices[slug] = retained_record(previous_prices.get(slug, {}), "no_verified_fare", utc_timestamp(), reason)
+                prices[slug] = retained_or_suppressed_record(
+                    previous_prices.get(slug, {}), "no_verified_fare", utc_timestamp(), history_entries, reason)
                 logger.warning("No verified fare city=%s rejected=%s retained_previous=%s", city, len(rejected), bool(prices[slug].get("price_cad")))
                 failure_count += 1
             else:
@@ -448,7 +497,8 @@ def refresh_flights(selected_slugs=None):
                             prices[slug].get("deal_label"), len(accepted))
         except Exception as exc:
             failure_count += 1
-            prices[slug] = retained_record(previous_prices.get(slug, {}), "temporarily_unavailable", utc_timestamp(), str(exc))
+            prices[slug] = retained_or_suppressed_record(
+                previous_prices.get(slug, {}), "temporarily_unavailable", utc_timestamp(), history.get(slug, []), str(exc))
             logger.exception("Unexpected flight refresh exception city=%s retained_previous=%s", city, bool(prices[slug].get("price_cad")))
         cache["updated_at"] = utc_timestamp()
         write_state(cache, history)
