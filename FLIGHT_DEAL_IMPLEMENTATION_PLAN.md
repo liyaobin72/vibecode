@@ -109,6 +109,7 @@ Keep an old verified result attached to its original dates. Never copy an old pr
 - Retain the previous verified deal until a replacement has passed verification.
 - A failed refresh must not erase a valid result.
 - Recheck unexpectedly cheap candidates in a fresh page/context before publishing.
+- Reject an extreme high-price outlier when it exceeds twice the median of at least three comparable verified observations; do not retain a previously published extreme outlier through later refresh failures.
 - Reject implausible prices and mismatched routes, dates, currencies, or trip types.
 - Save diagnostic details when extraction fails; save screenshots only for failures or suspicious results to control storage.
 - Update the cache atomically so the frontend never reads a partially written JSON file.

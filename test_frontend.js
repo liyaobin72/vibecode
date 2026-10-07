@@ -4,6 +4,15 @@ const http = require("http");
 const path = require("path");
 const { chromium } = require("playwright");
 
+global.window = {};
+require("./flight-ui");
+const suppressedOutlier = window.FlightUI.summary({
+  status: "no_verified_fare", verification_status: "rejected", price_cad: null,
+  suppressed_price_cad: 8474, suppression_reason: "extreme_high_price_outlier",
+}, "en");
+assert(suppressedOutlier.includes("No verified fare found"));
+assert(!suppressedOutlier.includes("8474"));
+
 const root = __dirname;
 const mime = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".jpg": "image/jpeg", ".webp": "image/webp", ".png": "image/png" };
 const server = http.createServer((request, response) => {
